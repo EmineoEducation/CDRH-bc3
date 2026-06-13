@@ -1,0 +1,405 @@
+// ══════════════════════════════════════════════════════════════
+//  DATA · PAC 3 · Responsable Ressources Humaines
+//  Opération Pulse : recruter vite, recruter bien — sans perdre l'âme Lumio · Lundi 9 juin 2025
+//  ⚠️  Remplacer les [À COMPLÉTER] par le contenu narratif réel du bloc.
+//  ⚠️  Les placeholders {{PRENOM}} {{NOM}} {{EMAIL_ETUDIANT}} sont substitués à la connexion.
+// ══════════════════════════════════════════════════════════════
+
+window.LUMIO_DATA = {
+  "student": {
+    "name": "{{PRENOM}} {{NOM}}",
+    "role": "Consultant·e externe",
+    "email": "{{EMAIL_ETUDIANT}}",
+    "company": "Indépendant·e",
+    "initial": "?"
+  },
+  "contexte": {
+    "title": "Fiche contexte — Lumio Health",
+    "subtitle": "À lire en premier si vous découvrez l'univers",
+    "body": "Lumio Health vient de signer un partenariat stratégique avec Northgate Clinics (réseau de 47 cliniques privées européennes) porté par Jakob Rein. Pour honorer les engagements contractuels, Théo Marczak (CEO) impose un recrutement accéléré : 3 postes critiques à pourvoir en 8 semaines — un·e Responsable Partenariats B2B (renfort de Camille Ott), un·e Data Scientist Santé et un·e Chargé·e de Communication RH & Marque Employeur. Le départ surprise de deux collaborateurs en période d'essai le trimestre précédent a fragilisé la réputation interne de Lumio, et les avis Glassdoor commencent à refléter une culture perçue comme stressante — paradoxe cinglant pour une medtech anti-stress. Sonia Ferracci, jusqu'ici centrée sur le marketing produit, est missionnée en urgence pour co-piloter la campagne de recrutement avec la RRH. Le candidat pressenti pour le poste Data Scientist est malentendant : le processus doit être entièrement adapté."
+  },
+  "briefEmail": {
+    "from": "Théo Marczak",
+    "fromEmail": "tho@lumio-health.com",
+    "subject": "Opération Pulse : recruter vite, recruter bien — sans perdre l'âme Lumio",
+    "date": "Lundi 9 juin 2025",
+    "body": "{{PRENOM}},\n\nLumio Health vient de signer un partenariat stratégique avec Northgate Clinics (réseau de 47 cliniques privées européennes) porté par Jakob Rein. Pour honorer les engagements contractuels, Théo Marczak (CEO) impose un recrutement accéléré : 3 postes critiques à pourvoir en 8 semaines — un·e Responsable Partenariats B2B (renfort de Camille Ott), un·e Data Scientist Santé et un·e Chargé·e de Communication RH & Marque Employeur. Le départ surprise de deux collaborateurs en période d'essai le trimestre précédent a fragilisé la réputation interne de Lumio, et les avis Glassdoor commencent à refléter une culture perçue comme stressante — paradoxe cinglant pour une medtech anti-stress. Sonia Ferracci, jusqu'ici centrée sur le marketing produit, est missionnée en urgence pour co-piloter la campagne de recrutement avec la RRH. Le candidat pressenti pour le poste Data Scientist est malentendant : le processus doit être entièrement adapté.\n\nEnjeu : Reconstruire l'attractivité de la marque employeur tout en déployant un processus de recrutement inclusif, rapide et conforme, pour trois postes stratégiques liés au contrat Northgate — sous peine de pénalités contractuelles et d'une crise d'image RH.\n\n— Théo Marczak\nCEO de Lumio Health"
+  },
+  "jakobEmail": {
+    "from": "Théo Marczak",
+    "to": "{{PRENOM}} {{NOM}}",
+    "subject": "Opération Pulse : recruter vite, recruter bien — sans perdre l'âme Lumio",
+    "date": "Lundi 9 juin 2025",
+    "tag": "CONFIDENTIEL",
+    "body": "[À COMPLÉTER — email confidentiel : Reconstruire l'attractivité de la marque employeur tout en déployant un processus de recrutement inclusif, rapide et conforme, pour trois postes stratégiques liés au contrat Northgate — sous peine de pénalités contractuelles et d'une crise d'image RH.]"
+  },
+  "theoNote": {
+    "title": "Note interne",
+    "date": "Lundi 9 juin 2025",
+    "body": "[À COMPLÉTER — note interne confidentielle]"
+  },
+  "deckBoard": {
+    "title": "Présentation",
+    "pages": [
+      {
+        "titre": "[À COMPLÉTER]",
+        "body": "[À COMPLÉTER — slides]"
+      }
+    ]
+  },
+  "yassineVeille": {
+    "title": "Veille concurrentielle",
+    "date": "Lundi 9 juin 2025",
+    "body": "[À COMPLÉTER — veille]"
+  },
+  "camilleVerbatims": [
+    {
+      "id": "v1",
+      "auteur": "Terrain",
+      "duree": "0:45",
+      "transcript": "[À COMPLÉTER — verbatim terrain]"
+    }
+  ],
+  "pressArticles": [
+    {
+      "id": "a1",
+      "media": "Presse",
+      "titre": "[À COMPLÉTER]",
+      "date": "Lundi 9 juin 2025",
+      "body": "[À COMPLÉTER — article]"
+    }
+  ],
+  "fausseUne": {
+    "media": "Une fictive",
+    "titre": "[À COMPLÉTER]",
+    "date": "Lundi 9 juin 2025",
+    "body": "[À COMPLÉTER]"
+  },
+  "documents": [
+    {
+      "id": "DOC-01",
+      "acte": 1,
+      "type": "email",
+      "expediteur": "Théo Marczak — CEO Lumio Health",
+      "objet": "URGENT — Lancement Opération Pulse : 3 recrutements critiques avant le 1er août",
+      "role_narratif": "Document de cadrage initial : fixe les contraintes de délai liées au contrat Northgate, annonce les trois postes à pourvoir, mentionne les pénalités contractuelles en cas de retard et délègue officiellement la coordination à la RRH avec Sonia Ferracci en appui. Contient les données GEPP simplifiées et le rappel des deux ruptures de période d'essai du trimestre précédent.",
+      "body": "[À COMPLÉTER — Document de cadrage initial : fixe les contraintes de délai liées au contrat Northgate, annonce les trois postes à pourvoir, mentionne les pénalités contractuelles en cas de retard et délègue officiellement la coordination à la RRH avec Sonia Ferracci en appui. Contient les données GEPP simplifiées et le rappel des deux ruptures de période d'essai du trimestre précédent.]"
+    },
+    {
+      "id": "DOC-02",
+      "acte": 1,
+      "type": "rapport",
+      "expediteur": "Baromètre interne RH Lumio Health — Vague 3, mai 2025",
+      "objet": "Résultats baromètre social & marque employeur — Synthèse exécutive",
+      "role_narratif": "Fournit les données quantitatives du diagnostic marque employeur : note d'engagement à 6,2/10, taux de recommandation interne (eNPS) à -12, verbatims sur la culture de performance stressante, score diversité & inclusion à 5,8/10. Identifie trois points forts (innovation produit, flexibilité télétravail, équipe jeune et dynamique) et trois axes de progrès (charge de travail, manque de feedback managérial, déficit de visibilité sur les perspectives d'évolution).",
+      "body": "[À COMPLÉTER — Fournit les données quantitatives du diagnostic marque employeur : note d'engagement à 6,2/10, taux de recommandation interne (eNPS) à -12, verbatims sur la culture de performance stressante, score diversité & inclusion à 5,8/10. Identifie trois points forts (innovation produit, flexibilité télétravail, équipe jeune et dynamique) et trois axes de progrès (charge de travail, manque de feedback managérial, déficit de visibilité sur les perspectives d'évolution).]"
+    },
+    {
+      "id": "DOC-03",
+      "acte": 2,
+      "type": "message_slack",
+      "expediteur": "Camille Ott — Responsable B2B",
+      "objet": "Thread Slack #recrutement-urgent — échanges avec la RRH",
+      "role_narratif": "Série de messages dans lesquels Camille exprime ses attentes pour le recrutement du Responsable Partenariats B2B : elle insiste sur les compétences interculturelles (contexte Northgate international), signale qu'elle n'a pas le temps de co-construire la fiche de poste avant jeudi et délègue implicitement à la RRH tout en restant exigeante sur le profil. Révèle une tension latente entre urgence opérationnelle et qualité du processus.",
+      "body": "[À COMPLÉTER — Série de messages dans lesquels Camille exprime ses attentes pour le recrutement du Responsable Partenariats B2B : elle insiste sur les compétences interculturelles (contexte Northgate international), signale qu'elle n'a pas le temps de co-construire la fiche de poste avant jeudi et délègue implicitement à la RRH tout en restant exigeante sur le profil. Révèle une tension latente entre urgence opérationnelle et qualité du processus.]"
+    },
+    {
+      "id": "DOC-04",
+      "acte": 2,
+      "type": "note_interne",
+      "expediteur": "Service RH Lumio Health",
+      "objet": "Analyse des 2 ruptures de période d'essai — T1 2025 : causes et recommandations",
+      "role_narratif": "Document post-mortem des deux ruptures récentes : un Développeur Full Stack parti après 3 semaines (décalage entre le poste réel et le poste vendu), une Chargée Marketing partie après 6 semaines (management directif perçu comme contraire aux valeurs affichées). Identifie des failles dans l'onboarding (pas de plan d'intégration formalisé, manager non disponible la première semaine) et dans l'alignement marque employeur / réalité terrain. Fournit les KPIs de départ : coût total des deux ruptures estimé à 34 000 €.",
+      "body": "[À COMPLÉTER — Document post-mortem des deux ruptures récentes : un Développeur Full Stack parti après 3 semaines (décalage entre le poste réel et le poste vendu), une Chargée Marketing partie après 6 semaines (management directif perçu comme contraire aux valeurs affichées). Identifie des failles dans l'onboarding (pas de plan d'intégration formalisé, manager non disponible la première semaine) et dans l'alignement marque employeur / réalité terrain. Fournit les KPIs de départ : coût total des deux ruptures estimé à 34 000 €.]"
+    },
+    {
+      "id": "DOC-05",
+      "acte": 3,
+      "type": "email",
+      "expediteur": "Jakob Rein — Directeur Partenariats, Northgate Clinics",
+      "objet": "RE: Staffing Lumio — Points d'attention contractuels",
+      "role_narratif": "Email en anglais (avec traduction jointe) dans lequel Jakob Rein rappelle les clauses contractuelles : le Responsable Partenariats B2B Lumio doit être opérationnel avant le 1er août pour la phase pilote avec 5 cliniques Northgate. Il signale également que Northgate attache une importance particulière à la politique handicap de ses partenaires (critère RSE de leur charte fournisseurs). Ce document crée la pression externe et introduit l'enjeu RSE/handicap.",
+      "body": "[À COMPLÉTER — Email en anglais (avec traduction jointe) dans lequel Jakob Rein rappelle les clauses contractuelles : le Responsable Partenariats B2B Lumio doit être opérationnel avant le 1er août pour la phase pilote avec 5 cliniques Northgate. Il signale également que Northgate attache une importance particulière à la politique handicap de ses partenaires (critère RSE de leur charte fournisseurs). Ce document crée la pression externe et introduit l'enjeu RSE/handicap.]"
+    },
+    {
+      "id": "DOC-06",
+      "acte": 3,
+      "type": "cv_et_lettre",
+      "expediteur": "Candidature de Maxime Lenoir pour le poste Data Scientist Santé",
+      "objet": "Dossier de candidature — Maxime Lenoir, Data Scientist, malentendant appareillé",
+      "role_narratif": "CV et lettre de motivation de Maxime Lenoir : 4 ans d'expérience en data science santé, compétences Python, R et NLP, mention explicite de sa situation de handicap auditif et de sa pratique de la LSF. Il sollicite des adaptations pour l'entretien (interprète LSF ou sous-titrage en temps réel) et signale son inscription à l'Agefiph. Son profil est techniquement excellent et dépasse les attentes. Ce document déclenche toute la séquence d'adaptation du processus.",
+      "body": "[À COMPLÉTER — CV et lettre de motivation de Maxime Lenoir : 4 ans d'expérience en data science santé, compétences Python, R et NLP, mention explicite de sa situation de handicap auditif et de sa pratique de la LSF. Il sollicite des adaptations pour l'entretien (interprète LSF ou sous-titrage en temps réel) et signale son inscription à l'Agefiph. Son profil est techniquement excellent et dépasse les attentes. Ce document déclenche toute la séquence d'adaptation du processus.]"
+    },
+    {
+      "id": "DOC-07",
+      "acte": 4,
+      "type": "capture_ecran",
+      "expediteur": "Glassdoor.fr — Profil employeur Lumio Health (captures mai 2025)",
+      "objet": "Avis Glassdoor Lumio Health — 23 avis récents, note globale 3,1/5",
+      "role_narratif": "Capture d'écran anonymisée de 6 avis représentatifs : deux positifs (ambiance startup, produit innovant), quatre négatifs (culture du résultat anxiogène, promesses non tenues sur l'évolution, manque de diversité dans le leadership, processus de recrutement opaque). Le dernier avis daté du 2 mai mentionne explicitement 'on nous a vendu une culture bien-être alors que le stress est partout — ironie pour une appli anti-stress'. Ce document alimente le diagnostic marque employeur et la communication externe.",
+      "body": "[À COMPLÉTER — Capture d'écran anonymisée de 6 avis représentatifs : deux positifs (ambiance startup, produit innovant), quatre négatifs (culture du résultat anxiogène, promesses non tenues sur l'évolution, manque de diversité dans le leadership, processus de recrutement opaque). Le dernier avis daté du 2 mai mentionne explicitement 'on nous a vendu une culture bien-être alors que le stress est partout — ironie pour une appli anti-stress'. Ce document alimente le diagnostic marque employeur et la communication externe.]"
+    },
+    {
+      "id": "DOC-08",
+      "acte": 5,
+      "type": "tableau_de_bord",
+      "expediteur": "RRH Lumio Health — Données RH consolidées juin 2025",
+      "objet": "Tableau de bord RH — Indicateurs recrutement et intégration T1-T2 2025",
+      "role_narratif": "Fournit les données brutes pour la compétence 3.9 : délai moyen de recrutement 52 jours (benchmark secteur 38 jours), taux d'acceptation des offres 61% (benchmark 74%), taux de rupture en période d'essai 28% (benchmark 12%), coût moyen par embauche 4 200 € (benchmark 3 100 €), taux d'absentéisme nouveaux collaborateurs 8,3% à 3 mois. Permet de calculer les écarts et d'argumenter les préconisations d'amélioration.",
+      "body": "[À COMPLÉTER — Fournit les données brutes pour la compétence 3.9 : délai moyen de recrutement 52 jours (benchmark secteur 38 jours), taux d'acceptation des offres 61% (benchmark 74%), taux de rupture en période d'essai 28% (benchmark 12%), coût moyen par embauche 4 200 € (benchmark 3 100 €), taux d'absentéisme nouveaux collaborateurs 8,3% à 3 mois. Permet de calculer les écarts et d'argumenter les préconisations d'amélioration.]"
+    }
+  ],
+  "slackMessages": {
+    "initial": [
+      {
+        "from": "Théo Marczak",
+        "time": "08:32",
+        "text": "{{PRENOM}} — Reconstruire l'attractivité de la marque employeur tout en déployant un processus de recrutement inclusif, rapide et conforme, pour trois postes stratégiques liés au contrat Northgate — sous peine de pénalités contractuelles et d'une crise d'image RH.",
+        "read": true
+      }
+    ],
+    "delayed": [
+      {
+        "from": "Théo Marczak",
+        "time": "+15min",
+        "text": "{{PRENOM}}, dès que tu as une hypothèse solide, envoie-la moi ici.",
+        "channel": "DM"
+      }
+    ]
+  }
+};
+
+window.PAC_CONFIG = {
+  "bloc": "3",
+  "titre": "Mettre en œuvre la politique de recrutement",
+  "epreuve": "Épreuve individuelle écrite - Étude de cas et Épreuve individuelle écrite et orale - Mise en situation professionnelle",
+  "deadline": "Lundi 9 juin 2025 · 18h00",
+  "commanditaire": "Théo Marczak",
+  "dispositif": "PAC",
+  "note_reflexive": false,
+  "temps": [
+    {
+      "n": 1,
+      "label": "Ancrage terrain",
+      "debut": 0,
+      "fin": 20,
+      "couleur": "#7a756c"
+    },
+    {
+      "n": 2,
+      "label": "Entrée dans l'affaire",
+      "debut": 20,
+      "fin": 50,
+      "couleur": "#1b4f8a"
+    },
+    {
+      "n": 3,
+      "label": "Diagnostic",
+      "debut": 50,
+      "fin": 95,
+      "couleur": "#1a6641"
+    },
+    {
+      "n": 4,
+      "label": "Production",
+      "debut": 95,
+      "fin": 175,
+      "couleur": "#c4420f"
+    },
+    {
+      "n": 5,
+      "label": "Réflexion",
+      "debut": 175,
+      "fin": 210,
+      "couleur": "#7a756c"
+    }
+  ],
+  "competences": [
+    {
+      "code": "3.1",
+      "label": "Renforcer l'attractivité de la marque employeur",
+      "libelle": "Renforcer l'attractivité",
+      "rncp": "Renforcer l'attractivité de la marque employeur, en évaluant sa réputation et en déterminant des axes d'amélioration, en favorisant un environnement de travail serein et inclusif, non discriminatoire ou excluant, pour instaurer une culture d'entreprise qui suscite l'adhésion des nouveaux collaborateurs",
+      "placeholder": "Analysez les signaux faibles relevés dans les documents (avis Glassdoor, baromètre interne, taux de rupture en période d'essai). Identifiez au moins deux points forts et deux points faibles de la marque employeur Lumio, puis proposez un plan d'actions concret (labels, partenariats, initiatives QVCT, gestion de la diversité) avec des objectifs mesurables.",
+      "min": 250,
+      "motsCles": [
+        "marque employeur",
+        "réputation",
+        "inclusion",
+        "diversité",
+        "QVCT",
+        "culture d'entreprise",
+        "axes d'amélioration",
+        "label",
+        "baromètre"
+      ],
+      "conseil": "Appuyez-vous explicitement sur les données quantitatives fournies (note Glassdoor, taux de rupture) pour ancrer votre diagnostic. Proposez des actions réalistes à l'échelle d'une medtech de 80 personnes, en distinguant actions court terme (< 3 mois) et moyen terme."
+    },
+    {
+      "code": "3.2",
+      "label": "Promouvoir la marque employeur",
+      "libelle": "Promouvoir la",
+      "rncp": "Promouvoir la marque employeur en interne et en externe, en utilisant des outils de marketing RH, notamment numériques, afin d'attirer et de fidéliser les talents",
+      "placeholder": "Décrivez votre plan de promotion de la marque employeur Lumio à destination des trois cibles de recrutement. Précisez les canaux numériques mobilisés (site carrière, LinkedIn, programme ambassadeurs avec Yassine Morel en Content Manager), les messages clés et les actions internes pour recréer de la fierté d'appartenance après les ruptures de période d'essai.",
+      "min": 200,
+      "motsCles": [
+        "marketing RH",
+        "ambassadeur",
+        "site carrière",
+        "réseaux sociaux",
+        "fidélisation",
+        "communication interne",
+        "LinkedIn",
+        "EVP",
+        "storytelling RH"
+      ],
+      "conseil": "Distinguez clairement les actions de promotion interne (pour fidéliser les 78 collaborateurs actuels) et externe (pour attirer les candidats). Mentionnez le rôle de Yassine Morel comme ambassadeur content et exploitez le paradoxe marque produit / marque employeur pour créer un récit cohérent."
+    },
+    {
+      "code": "3.3",
+      "label": "Conduire le processus de recrutement",
+      "libelle": "Conduire le",
+      "rncp": "Conduire le processus de recrutement en lien avec la gouvernance et les opérationnels de l'entreprise, en définissant un parcours de recrutement cohérent avec la marque employeur, en favorisant l'inclusion et en respectant les obligations légales (diversité, handicap, traitement des données), afin de mettre en œuvre la stratégie de recherche de talents, tant en interne qu'en externe",
+      "placeholder": "Construisez le parcours de recrutement complet pour les trois postes, de la validation du besoin à la décision finale. Précisez les étapes, les délais, les parties prenantes impliquées (Théo, Camille, managers de proximité), les adaptations légales requises (RGPD, handicap pour le candidat Data Scientist, non-discrimination) et la cohérence avec la marque employeur Lumio.",
+      "min": 300,
+      "motsCles": [
+        "parcours de recrutement",
+        "parties prenantes",
+        "RGPD",
+        "non-discrimination",
+        "handicap",
+        "convention collective",
+        "gouvernance",
+        "inclusion",
+        "obligations légales"
+      ],
+      "conseil": "Présentez le parcours sous forme de tableau ou de séquence étapée avec responsable, délai et livrable pour chaque étape. Veillez à intégrer les adaptations spécifiques pour le candidat malentendant dès la phase de sourcing, pas seulement lors de l'entretien."
+    },
+    {
+      "code": "3.4",
+      "label": "Évaluer les besoins en compétences et en recrutement",
+      "libelle": "Évaluer les",
+      "rncp": "Évaluer les besoins en compétences et en recrutement des différents services, en s'appuyant sur les données issues de la GEPP, pour identifier les recrutements prioritaires à mettre en œuvre",
+      "placeholder": "En vous appuyant sur les données GEPP transmises par Théo et sur les départs récents, analysez les besoins en compétences de Lumio Health. Justifiez la priorisation des trois postes, définissez les motifs et objectifs de chaque recrutement, et expliquez la méthode d'analyse utilisée (entretiens managers, analyse des écarts de compétences, données RH).",
+      "min": 200,
+      "motsCles": [
+        "GEPP",
+        "besoins en compétences",
+        "priorisation",
+        "analyse des écarts",
+        "recrutement prioritaire",
+        "entretien manager",
+        "motifs de recrutement",
+        "cartographie"
+      ],
+      "conseil": "Reliez chaque besoin identifié à un risque business concret (pénalité contractuelle Northgate, perte de marché, surcharge d'équipe). La priorisation doit être argumentée avec des données, pas seulement intuitive."
+    },
+    {
+      "code": "3.5",
+      "label": "Établir la fiche de poste",
+      "libelle": "Établir la",
+      "rncp": "Établir la fiche de poste avec le manager opérationnel en tenant compte des contraintes et des opportunités du marché de l'emploi, afin d'assurer des recrutements pertinents",
+      "placeholder": "Rédigez la fiche de poste complète pour le poste de Responsable Partenariats B2B en collaboration avec Camille Ott. La fiche doit inclure tous les éléments clés (intitulé, missions, rémunération indicative, volume horaire, rattachement, santé-sécurité, compensation handicap), être rédigée en écriture inclusive et valoriser les compétences interculturelles exigées par le contexte Northgate.",
+      "min": 250,
+      "motsCles": [
+        "fiche de poste",
+        "missions",
+        "compétences requises",
+        "rattachement hiérarchique",
+        "rémunération",
+        "écriture inclusive",
+        "handicap",
+        "interculturel",
+        "conditions d'exercice"
+      ],
+      "conseil": "La fiche de poste doit être directement exploitable, pas un plan théorique. Rédigez les missions à la première ou deuxième personne inclusive, limitez les critères d'expérience au strict nécessaire pour ouvrir le recrutement à des profils atypiques, et ajoutez une rubrique 'Ce que nous offrons' ancrée dans les valeurs Lumio."
+    },
+    {
+      "code": "3.6",
+      "label": "Rechercher des candidats",
+      "libelle": "Rechercher des",
+      "rncp": "Rechercher des candidats en utilisant des outils de sourcing, une méthode de recrutement et des supports de diffusion de l'offre préalablement rédigée en adéquation avec la marque employeur, afin d'attirer les profils visés et les compétences recherchées",
+      "placeholder": "Définissez la stratégie de sourcing pour chacun des trois postes. Identifiez les canaux adaptés à chaque profil (job boards spécialisés medtech, réseaux sociaux, écoles partenaires, plateformes handicap pour le poste Data Scientist). Rédigez l'annonce de recrutement pour le poste Chargé·e de Communication RH & Marque Employeur en respectant les normes légales et en valorisant la marque Lumio.",
+      "min": 280,
+      "motsCles": [
+        "sourcing",
+        "job board",
+        "réseaux sociaux professionnels",
+        "annonce",
+        "non-discrimination",
+        "plateforme handicap",
+        "cooptation",
+        "marque employeur",
+        "RSE"
+      ],
+      "conseil": "Justifiez le choix de chaque canal par des critères objectifs (coût, délai, qualité des profils, adéquation au public cible). Pour le poste Data Scientist, mentionnez explicitement des plateformes spécialisées accessibilité (Agefiph, Handi-cv, etc.). L'annonce rédigée doit être conforme à la loi Égalité & Citoyenneté."
+    },
+    {
+      "code": "3.7",
+      "label": "Conduire les entretiens de recrutement",
+      "libelle": "Conduire les",
+      "rncp": "Conduire les entretiens de recrutement, en s'appuyant sur une trame adaptée au profil recherché, au poste à pourvoir et à la dimension interculturelle, en adaptant le cas échéant les conditions de l'entretien à une situation de handicap, afin de participer à la sélection d'un candidat dans une démarche de diversité et d'inclusion",
+      "placeholder": "Préparez et conduisez l'entretien de recrutement pour le poste de Data Scientist Santé avec le candidat malentendant. Présentez votre grille d'entretien structurée par thématiques, les adaptations mises en place (interprète LSF, support écrit, salle adaptée), la technique d'entretien choisie et sa justification. Lors de la mise en situation, conduisez l'entretien en 15 minutes devant le jury.",
+      "min": 220,
+      "motsCles": [
+        "grille d'entretien",
+        "semi-directif",
+        "non-discrimination",
+        "handicap",
+        "adaptation",
+        "compétences",
+        "interprète LSF",
+        "thématiques",
+        "équité"
+      ],
+      "conseil": "La grille doit comporter au minimum 4 thématiques avec 2 à 3 questions par thématique. Prévoyez des questions comportementales (méthode STAR) pour évaluer les soft skills critiques. Les adaptations pour la situation de handicap doivent être préparées AVANT l'entretien, pas improvisées sur le moment."
+    },
+    {
+      "code": "3.8",
+      "label": "Concevoir un processus d'onboarding",
+      "libelle": "Concevoir un",
+      "rncp": "Concevoir un processus d'onboarding des nouveaux collaborateurs en lien avec les managers, en définissant et en suivant les étapes du parcours d'intégration afin d'assurer une prise de poste optimale et un suivi efficace de l'intégration",
+      "placeholder": "Concevez le parcours d'onboarding pour les trois nouvelles recrues sur une période de 90 jours. Détaillez les étapes (J-15 à J+90), les modalités adaptées à chaque profil (incluant l'aménagement du poste pour le Data Scientist malentendant), les parties prenantes, les outils de suivi (rapport d'étonnement, points d'étape) et les indicateurs permettant d'évaluer la qualité de l'intégration.",
+      "min": 260,
+      "motsCles": [
+        "onboarding",
+        "parcours d'intégration",
+        "rapport d'étonnement",
+        "mentorat",
+        "aménagement de poste",
+        "handicap",
+        "culture d'entreprise",
+        "prise de poste",
+        "indicateurs"
+      ],
+      "conseil": "Organisez votre réponse en trois phases (pré-intégration, premier mois, consolidation). Pour chaque phase, précisez le responsable, les livrables attendus et les points de vigilance. Le rapport d'étonnement doit être présenté comme un outil bilatéral, pas uniquement descendant."
+    },
+    {
+      "code": "3.9",
+      "label": "Évaluer les processus de recrutement et d'intégration",
+      "libelle": "Évaluer les",
+      "rncp": "Évaluer les processus de recrutement et d'intégration en analysant des indicateurs de suivi et de performance afin de repérer les freins et les leviers d'optimisation",
+      "placeholder": "Construisez un tableau de bord RH pour piloter et évaluer les processus de recrutement et d'intégration mis en place lors de l'Opération Pulse. Sélectionnez 6 à 8 indicateurs pertinents (KPIs), fixez des valeurs cibles pour Lumio, analysez les données disponibles dans les documents et formulez au moins trois préconisations d'amélioration argumentées pour les prochains cycles de recrutement.",
+      "min": 230,
+      "motsCles": [
+        "indicateurs de performance",
+        "KPI",
+        "tableau de bord",
+        "taux de rotation",
+        "période d'essai",
+        "taux d'acceptation",
+        "absentéisme",
+        "optimisation",
+        "préconisations"
+      ],
+      "conseil": "Choisissez des indicateurs couvrant à la fois le recrutement (délai moyen de recrutement, coût par embauche, taux d'acceptation des offres) et l'intégration (ruptures en période d'essai, disponibilité opérationnelle à J+30, score d'engagement à 3 mois). Reliez chaque préconisation à un indicateur sous-performant identifié dans les données Lumio."
+    }
+  ],
+  "gabarits": {},
+  "questionsPositionnement": [],
+  "juryPrompt": "Tu es le jury certifiant du bloc 3 (Responsable Ressources Humaines).\nContexte : Opération Pulse : recruter vite, recruter bien — sans perdre l'âme Lumio · Lundi 9 juin 2025.\nTu évalues une production étudiante aux critères RNCP stricts. Sois exigeant mais juste.\nCritères éliminatoires :\n- Absence de diagnostic structuré de la marque employeur s'appuyant sur des données factuelles issues des documents (compétence 3.1) — une opinion non étayée ne constitue pas une analyse\n- Non-identification des rôles et responsabilités des parties prenantes dans le parcours de recrutement (Théo Marczak, Camille Ott, managers de proximité, RRH) : chaque étape doit avoir un responsable nommé et un livrable associé\n- Absence totale d'adaptation du processus à la situation de handicap du candidat Data Scientist, que ce soit pour le sourcing, la communication de l'offre ou la conduite de l'entretien\n- Fiche de poste incomplète : tout document manquant au moins deux éléments obligatoires (rattachement hiérarchique, rémunération indicative, conditions d'exercice, mention handicap) sera considéré comme non conforme\n- Absence d'indicateurs de performance quantifiés dans l'évaluation des processus de recrutement et d'intégration : les préconisations doivent être reliées à des KPIs chiffrés et non à des impressions qualitatives\n- Grille d'entretien ne respectant pas le principe de non-discrimination (questions sur la situation familiale, l'origine, les convictions, etc.) ou ne couvrant pas les compétences techniques et comportementales du poste\n- Plan de sourcing identique pour les trois postes sans justification des canaux par rapport aux profils cibles et au marché de l'emploi medtech parisien\n\nRéponds EXACTEMENT dans ce format :\n### 3.1 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.2 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.3 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.4 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.5 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.6 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.7 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.8 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.9 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n## Niveau global\n**[Non conforme / Partiellement conforme / Conforme / Conforme avec distinction]**\n\n## Question de jury\nUne question dérangeante que tu poserais à l'oral.",
+  "livrableMinMots": 520,
+  "noteReflexiveMinMots": 100
+};
+// Alias de compatibilité (les apps existantes lisent encore PASS_CONFIG)
+window.PASS_CONFIG = window.PAC_CONFIG;
