@@ -1,5 +1,5 @@
 // ══════════════════════════════════════════════════════════════
-//  JEFFERSON · PAC 3
+//  JEFFERSON · PAC bc3
 //  Composant générique — guide par acte + chat. Lit window.PAC_CONFIG.
 // ══════════════════════════════════════════════════════════════
 
