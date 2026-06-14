@@ -1,6 +1,6 @@
 // ══════════════════════════════════════════════════════════════
-//  DATA · PAC BC3 · Manager des Ressources Humaines
-//  Opération Pulse : recruter le bon profil avant que Northgate ne signe · 14 mars 2025
+//  DATA · PAC BC3 · Chargé de développement des ressources humaines
+//  Opération Pulse : recruter le talent qui sauvera le lancement européen · Lundi 14 avril 2025
 //  Schéma : mailbox[] · dossiers[] · notes[] · guide · finder · calendar · slack
 //  ⚠️  Remplacer les [À COMPLÉTER] par le contenu narratif réel du bloc.
 //  ⚠️  Les placeholders {{PRENOM}} {{NOM}} {{EMAIL_ETUDIANT}} sont substitués à la connexion.
@@ -16,365 +16,337 @@ window.LUMIO_DATA = {
   },
   "mailbox": [
     {
-      "id": "mail_brief",
-      "from": "Théo Marczak",
-      "fromEmail": "theo.marczak@lumio-health.com",
-      "subject": "Opération Pulse : recruter le bon profil avant que Northgate ne signe",
-      "date": "14 mars 2025",
-      "preview": "Recruter en 8 semaines un profil rare (gestion de projet santé numérique + culture wearable) sans sacrifier les engagements D&I de Lumio Health, tout en activant la marque employeur pour capter des candidats là où ils se trouvent — avant que la pression du contrat Northgate ne pousse à bâcler la sélection.",
-      "body": "{{PRENOM}},\n\nLumio Health vient de décrocher un appel d'offres pilote avec la mutuelle Northgate (500 salariés testeurs). Jakob Rein, partenaire B2B de Northgate, exige une équipe projet dédiée opérationnelle sous 8 semaines. Or le poste de Chargé(e) de Projets Partenariats Santé n'existe pas encore dans l'organigramme. Théo Marczak, CEO, mandate la RH pour construire de toute urgence le processus de recrutement complet — de la marque employeur à l'onboarding — tout en veillant à ne pas fragiliser la culture inclusive que Lumio Health cultive depuis sa fondation. Camille Ott, responsable B2B, et Yassine Morel, Content, sont mobilisés en appui. Sonia Ferracci, DirMkt, surveille la cohérence avec l'image de marque.\n\nEnjeu : Recruter en 8 semaines un profil rare (gestion de projet santé numérique + culture wearable) sans sacrifier les engagements D&I de Lumio Health, tout en activant la marque employeur pour capter des candidats là où ils se trouvent — avant que la pression du contrat Northgate ne pousse à bâcler la sélection.\n\n— Théo Marczak\nCEO de Lumio Health",
-      "avatar": "TM",
-      "avatarColor": "#134547",
-      "unread": true,
-      "flagged": true,
-      "tags": [
-        "Mission"
-      ]
+      "id": "DOC-05",
+      "from": "Jakob Rein, Northgate Stockholm",
+      "fromEmail": "jakob.rein@lumio-health.com",
+      "subject": "RE: Partenariat Lumio x Northgate — conditions préalables à la signature",
+      "date": "Lundi 14 avril 2025",
+      "preview": "Jakob Rein exige de rencontrer le futur BD Senior avant le 15 juin et pose le C2 en anglais comme condition non négociable.",
+      "body": "Théo,\n\nMerci pour ta mise à jour du 11 avril. Je note que les délais s'accélèrent côté Lumio, ce qui est une bonne nouvelle — à condition que l'exécution suive.\n\nSur le fond : Northgate ne signera pas le contrat de distribution nordique avant d'avoir rencontré en personne le Business Developer Senior que vous comptez positionner sur ce territoire. Ce n'est pas une formalité. Nos marchés — Suède, Finlande, Danemark — ont des codes relationnels et des cycles de décision très spécifiques. Nous avons vu des partenariats échouer non pas sur le produit, mais sur l'interlocuteur.\n\nJ'attends donc une rencontre formelle avec ce candidat avant le 15 juin 2025, idéalement à Stockholm. Sur le profil, soyons clairs : un niveau C2 en anglais des affaires est non négociable — les interlocuteurs RH et C-suite chez nos clients ne feront aucune concession là-dessus. La maîtrise des cultures scandinaves de travail (horizontalité, consensus, gestion du temps long) est tout aussi déterminante qu'un carnet d'adresses.\n\nJe reste disponible pour un appel cette semaine si vous souhaitez affiner les critères conjointement. Mais je vous encourage à ne pas sous-estimer le temps que prend un bon recrutement sur ce type de profil.\n\nCordialement,\n\nJakob Rein\nPartner — Nordics Distribution\nNorthgate Capital, Stockholm\n+46 8 520 xxx xx\njakob.rein@northgate.vc",
+      "avatar": "JR",
+      "avatarColor": "#5b3a8a",
+      "unread": false,
+      "flagged": false
     }
   ],
   "dossiers": [
     {
-      "id": "D1",
+      "id": "DOC-01",
       "type": "rich",
-      "tab": "BAROMÈTR",
-      "title": "Baromètre social Lumio Health — Vague S2 2024",
-      "accent": "#134547",
-      "runningHead": "BAROMÈTRE INTERNE RH",
-      "pages": [
-        {
-          "kicker": "DOCUMENT INTERNE RH — CONFIDENTIEL",
-          "title": "Baromètre social Lumio Health — Vague S2 2024",
-          "byline": "Théo Marczak, CEO · 14 mars 2025",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "Ce baromètre a été conduit en novembre 2024 auprès de l'ensemble des collaborateurs de Lumio Health (42 personnes au total). Taux de participation : 81 % (34 répondants), en hausse de 6 points par rapport à la vague S1 2024. L'enquête couvre cinq axes : satisfaction globale, charge de travail, clarté des perspectives d'évolution, sentiment d'inclusion et confiance dans le management. Les résultats sont présentés sans filtre — y compris les points qui nous font mal."
-            },
-            {
-              "type": "h2",
-              "text": "Ce qui tient la route"
-            },
-            {
-              "type": "p",
-              "text": "Le score de satisfaction globale atteint 7,4/10, stable par rapport à S1 (7,2). Les collaborateurs plébiscitent la mission produit (8,6/10), la qualité des relations entre collègues (8,1/10) et la flexibilité des conditions de travail (7,9/10). 91 % des répondants déclarent être fiers de travailler chez Lumio Health et recommanderaient l'entreprise comme employeur à leurs pairs — un score NPS interne de +47, solide pour une structure de notre taille."
-            },
-            {
-              "type": "callout",
-              "text": "🟢 Point fort : l'adhésion à la mission de Lumio Health reste le premier facteur de rétention cité (62 % des répondants le mentionnent spontanément). C'est un actif marque employeur à exploiter activement dans nos prochains recrutements."
-            },
-            {
-              "type": "h2",
-              "text": "Les points de friction — sans détour"
-            },
-            {
-              "type": "p",
-              "text": "Trois signaux négatifs ressortent nettement. Premier signal : la charge de travail. 58 % des collaborateurs la jugent élevée ou très élevée, contre 44 % en S1. Ce chiffre est à prendre au sérieux, notamment côté Content et Partenariats où les équipes sont réduites à un ou deux profils chacune. Deuxième signal : le manque de visibilité sur les évolutions de carrière. 67 % des répondants estiment ne pas avoir de lisibilité sur leurs perspectives à 12-18 mois — un chiffre en hausse de 11 points. Troisième signal : la communication sur la stratégie. 49 % déclarent ne pas comprendre clairement la direction prise par Lumio Health, notamment autour de la question du pivot B2C évoqué en comité restreint mais perçu comme flou par les équipes."
-            },
-            {
-              "type": "callout",
-              "text": "🔴 Alerte : Yassine Morel (Content) figure parmi les profils ayant exprimé des signaux de surcharge via les verbatims libres. La question de l'allocation des ressources sur les prochains mois — notamment si un recrutement urgent mobilise son appui — devra être traitée avec soin et en concertation avec lui."
-            },
-            {
-              "type": "h2",
-              "text": "Inclusion & diversité : des bases solides, des marges de progression"
-            },
-            {
-              "type": "p",
-              "text": "Le score d'inclusion perçue atteint 7,8/10. 88 % des répondants considèrent que Lumio Health traite équitablement ses collaborateurs, quelle que soit leur situation. Le taux d'emploi de collaborateurs en situation de handicap (RQTH) s'établit à 4,8 % — au-dessus de l'obligation légale de 6 % dès que nous dépasserons le seuil des 50 ETP, ce qui impose d'anticiper. La perception de l'équité salariale est positive (7,1/10) mais quelques verbatims pointent un manque de transparence sur les grilles de rémunération, en particulier pour les nouveaux entrants."
-            },
-            {
-              "type": "callout",
-              "text": "📌 À retenir pour le recrutement à venir : nos engagements D&I sont perçus comme authentiques par les équipes en place. Tout écart dans le prochain processus de recrutement (manque de transparence, sélection bâclée) serait immédiatement repéré et sanctionné en interne. La cohérence est non négociable."
-            },
-            {
-              "type": "h2",
-              "text": "Synthèse & priorités identifiées"
-            },
-            {
-              "type": "p",
-              "text": "Ce baromètre confirme que Lumio Health dispose d'un socle marque employeur réel — mission forte, culture positive, inclusion perçue comme sincère. Mais deux vulnérabilités structurelles émergent : la surcharge des équipes clés et l'absence de cap lisible sur les évolutions individuelles. Dans le contexte du recrutement urgent lié au contrat Northgate, ces signaux commandent de ne pas ajouter de pression supplémentaire sur les équipes mobilisées en appui (Camille Ott, Yassine Morel) sans dispositif de soutien identifié. Ce document sera partagé avec la RH et Sonia Ferracci pour alimenter le diagnostic marque employeur en cours."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "D2",
-      "type": "rich",
-      "tab": "CAPTURE",
-      "title": "Synthèse des avis Glassdoor Lumio Health — Jan.-Mars 2025",
-      "accent": "#1b4f8a",
-      "runningHead": "CAPTURE D'ÉCRAN GLASSDOO",
-      "pages": [
-        {
-          "kicker": "MARQUE EMPLOYEUR — USAGE INTERNE",
-          "title": "Ce que les candidats lisent sur nous avant de postuler",
-          "byline": "Sonia Ferracci, Directrice Marketing · 14 mars 2025",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "Dans le cadre du recrutement imminent du poste Chargé(e) de Projets Partenariats Santé, j'ai compilé les 12 avis publiés sur Glassdoor entre janvier et mars 2025. Note moyenne actuelle : 3,8 / 5. C'est honorable pour une medtech de 40 personnes, mais insuffisant pour capter des profils rares qui comparent activement les employeurs avant de candidater. Voici ce que ces avis disent réellement de nous."
-            },
-            {
-              "type": "h2",
-              "text": "Ce que les collaborateurs valorisent (points forts récurrents)"
-            },
-            {
-              "type": "p",
-              "text": "Sur les 12 avis, 9 mentionnent spontanément l'ambiance d'équipe et la cohésion interne. Les formulations reviennent : « des collègues vraiment impliqués », « on sent que la mission a du sens », « projet qui donne envie de se lever le matin ». La flexibilité organisationnelle est citée 7 fois — télétravail hybride, horaires adaptables, autonomie dans les missions. L'impact santé-travail de nos wearables est perçu comme un vrai différenciateur, y compris par des profils issus d'autres secteurs. Ces éléments constituent notre socle de marque employeur : ils sont authentiques, vérifiables et cohérents avec notre communication externe."
-            },
-            {
-              "type": "callout",
-              "text": "✦ Point fort à amplifier : 75 % des avis citent la mission comme facteur de rétention. C'est notre argument numéro un pour attirer des profils convaincus par la santé numérique — exactement ceux que nous cherchons pour le poste partenariats."
-            },
-            {
-              "type": "h2",
-              "text": "Ce qui freine ou déçoit (points faibles à traiter en urgence)"
-            },
-            {
-              "type": "p",
-              "text": "Trois avis signalent un onboarding « flottant » ou « peu structuré » : un collaborateur arrivé en octobre 2024 écrit textuellement « j'ai mis six semaines à comprendre qui faisait quoi ». Quatre avis pointent l'absence de feedback régulier de la part des managers — formulation type : « on ne sait pas vraiment où on en est », « les entretiens annuels existent sur le papier ». Deux avis mentionnent un écart entre le discours inclusif affiché et la réalité perçue au quotidien, sans détail précis mais avec une note de 2/5 sur ce critère. Ces signaux sont faibles en volume, mais leur visibilité publique est forte : un candidat qui lit « onboarding flou » avant de signer une offre peut se désister."
-            },
-            {
-              "type": "callout",
-              "text": "⚠ Risque concret : si nous lançons une campagne de recrutement sans corriger la page Glassdoor et sans afficher un processus d'intégration structuré, nous recrutons contre notre propre réputation en ligne."
-            },
-            {
-              "type": "h2",
-              "text": "Recommandations opérationnelles pour l'Opération Pulse"
-            },
-            {
-              "type": "p",
-              "text": "Trois actions à enclencher avant la mise en ligne de l'offre, idéalement d'ici le 21 mars : (1) Publier une réponse officielle de Lumio Health aux avis négatifs sur l'onboarding — ton sobre, factuel, engagé sur les améliorations en cours ; cela signale aux candidats que nous écoutons. (2) Mettre à jour la fiche entreprise Glassdoor avec un encart « Nos engagements D&I » et les chiffres concrets : taux RQTH, politique télétravail, parité aux postes de management. (3) Demander à 3 ou 4 collaborateurs volontaires de déposer un avis actualisé — sans script imposé, mais en les informant que la page est lue activement par nos futurs candidats. Je reste disponible pour coordonner ces actions avec Camille et Yassine."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "D3",
-      "type": "rich",
-      "tab": "BRIEF",
-      "title": "Charte éditoriale marque employeur — Usage recrutement",
-      "accent": "#1a6641",
-      "runningHead": "BRIEF MARKETING RH",
-      "pages": [
-        {
-          "kicker": "BRIEF MARKETING RH — CONFIDENTIEL",
-          "title": "Charte éditoriale marque employeur Lumio Health",
-          "byline": "Sonia Ferracci, Directrice Marketing · 14 mars 2025",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "Dans le cadre de l'Opération Pulse et du recrutement urgent d'un(e) Chargé(e) de Projets Partenariats Santé, toutes les communications employeur produites par Lumio Health — annonces, posts LinkedIn, messages de sourcing, visuels de campagne — doivent respecter les règles définies ci-dessous. Ce cadre s'applique à Camille Ott (partenariats), Yassine Morel (content) et à tout prestataire externe mobilisé. Objectif : projeter une image cohérente, sincère et différenciante, sans sacrifier la rapidité qu'impose le délai de 8 semaines."
-            },
-            {
-              "type": "h2",
-              "text": "1. Ton éditorial : trois principes non négociables"
-            },
-            {
-              "type": "p",
-              "text": "Inspirant sans être creux. On parle d'impact concret : « 180 entreprises mesurent déjà le stress de leurs équipes grâce à nos wearables » vaut mieux que « nous révolutionnons le bien-être ». Accessible sans être familier. On évite le jargon médical lourd (pas de « photopléthysmographie » en accroche) et le corporate vide (pas de « rejoignez une aventure humaine »). Direct et honnête. Si le poste est nouveau, on le dit : « Vous construirez ce rôle avec nous. » La transparence sur le contexte de croissance est un atout, pas un risque."
-            },
-            {
-              "type": "callout",
-              "text": "RÈGLE D'OR : chaque message recrutement doit répondre à la question du candidat — « Pourquoi Lumio Health plutôt qu'une autre medtech ? » — en trois phrases maximum, sans slogan."
-            },
-            {
-              "type": "h2",
-              "text": "2. Messages clés RSE & QVCT à intégrer systématiquement"
-            },
-            {
-              "type": "p",
-              "text": "Trois angles sont à mentionner dans toute prise de parole externe liée au recrutement. (1) Mission santé au travail : Lumio Health conçoit des outils qui protègent la santé mentale des salariés — ce que nous vendons, nous le vivons en interne. (2) Engagement D&I : politique RQTH active, processus de sélection anonymisé à la première étape, critères d'évaluation publiés dès l'annonce. (3) QVCT réelle : télétravail 2 jours/semaine garanti dès la période d'essai, budget formation individuel de 800 €/an, point RH mensuel obligatoire. Ces éléments ne sont pas des arguments marketing : ce sont des engagements contractuels. Ils doivent être formulés comme tels."
-            },
-            {
-              "type": "h2",
-              "text": "3. Identité visuelle — ce qui est autorisé"
-            },
-            {
-              "type": "p",
-              "text": "Pour les visuels de recrutement, on utilise exclusivement la palette secondaire de la charte Lumio Health : bleu ardoise (#2D4A6B), blanc cassé (#F7F5F2), vert doux (#7BAF8E). Les photos doivent montrer des situations de travail réelles (open space Paris 11e, sessions de test wearable) — aucun stock photo générique de bureau souriant. Les portraits de collaborateurs sont autorisés uniquement avec accord écrit signé. Le logo Lumio Health apparaît systématiquement en bas de page, jamais en filigrane sur un visuel de candidat."
-            },
-            {
-              "type": "callout",
-              "text": "ALERTE COHÉRENCE (Sonia F.) : toute annonce diffusée sans validation préalable de la DirMkt sera retirée dans les 24h. Un template Notion validé sera partagé par Yassine le 17 mars — délai impératif avant le lancement de la campagne."
-            },
-            {
-              "type": "h2",
-              "text": "4. Canaux prioritaires et règles de diffusion"
-            },
-            {
-              "type": "p",
-              "text": "LinkedIn Lumio Health (page entreprise, 2 400 abonnés) : 1 post d'annonce + 1 post « coulisses du poste » à J+5, rédigés par Yassine sur base validée. Welcome to the Jungle : fiche complète avec section « La réalité du poste » obligatoire. Réseaux spécialisés santé numérique : Healthtech Community France, forum e-santé.fr. Le bouche-à-oreille via Camille Ott (réseau partenariats) est activé en parallèle — les messages de cooptation suivent le même ton éditorial, version courte. Aucune diffusion sur des jobboards généralistes avant J+10 : on cible d'abord les profils actifs dans l'écosystème santé numérique."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "D5",
-      "type": "rich",
-      "tab": "EXTRAIT",
-      "title": "Cartographie des compétences — périmètre B2B & Partenariats — Lumio Health 2025",
-      "accent": "#5b3a8a",
-      "runningHead": "EXTRAIT GEPP",
-      "pages": [
-        {
-          "kicker": "EXTRAIT GEPP — USAGE INTERNE RESTREINT",
-          "title": "Cartographie des compétences critiques · Pôle B2B & Partenariats",
-          "byline": "Théo Marczak, CEO · 14 mars 2025",
-          "blocks": [
-            {
-              "type": "p",
-              "text": "Ce document constitue un extrait opérationnel de la démarche GEPP initiée en janvier 2025. Il se concentre sur le périmètre B2B & Partenariats, à la lumière du contrat pilote signé avec la mutuelle Northgate Capital (500 salariés testeurs, démarrage prévu semaine 20). L'objectif est d'objectiver les écarts de compétences constatés dans l'équipe actuelle — indépendamment de l'urgence contractuelle — afin de fonder toute décision de recrutement sur une réalité opérationnelle documentée, et non sur la seule pression calendaire."
-            },
-            {
-              "type": "h2",
-              "text": "1. Périmètre analysé et méthode"
-            },
-            {
-              "type": "p",
-              "text": "L'analyse porte sur les 4 collaborateurs rattachés ou contributeurs réguliers au pôle B2B : Camille Ott (Responsable Partenariats), Yassine Morel (Content Manager, appui contractuel), ainsi que deux chargés de compte recrutés en 2023. La cartographie a été construite sur la base des fiches de mission existantes, des comptes-rendus de revues trimestrielles Q3 et Q4 2024, et d'un entretien individuel conduit par la RH entre le 3 et le 7 mars 2025. Trois familles de compétences ont été évaluées sur une échelle à 4 niveaux (Notions / Maîtrise partielle / Maîtrise opérationnelle / Expertise)."
-            },
-            {
-              "type": "h2",
-              "text": "2. Compétences critiques : état des lieux"
-            },
-            {
-              "type": "p",
-              "text": "Famille A — Gestion de projet santé numérique : aucun membre de l'équipe n'atteint le niveau « Maîtrise opérationnelle ». Camille Ott dispose d'une maîtrise partielle acquise sur le terrain (déploiements Decathlon Pro, Malakoff Humanis), mais sans outillage méthodologique formalisé (absence de certification type PMP ou Prince2, pas d'expérience de pilotage de phase pilote avec reporting KPI santé). Famille B — Négociation B2B grands comptes secteur mutuelle/prévoyance : compétence absente dans l'équipe. Les contrats signés à ce jour (PME 50-300 salariés) n'ont pas impliqué de cycles de vente complexes ni de comités d'achats multi-parties prenantes. Famille C — Culture réglementaire dispositifs médicaux (MDR 2017/745, RGPD données de santé, référentiel HDS) : niveau « Notions » pour l'ensemble de l'équipe. Ce déficit est déjà apparu lors de la phase de due diligence Northgate en février 2025, où Camille a dû solliciter en urgence le CTO pour répondre aux questions de conformité."
-            },
-            {
-              "type": "callout",
-              "text": "Écart critique confirmé : sur les 3 familles de compétences identifiées comme indispensables au déploiement Northgate, aucune n'est couverte à un niveau opérationnel par les ressources internes actuelles. Le recrutement d'un(e) Chargé(e) de Projets Partenariats Santé n'est pas une réponse conjoncturelle à l'urgence du contrat — c'est la correction d'un angle mort structurel dans l'organisation B2B de Lumio Health."
-            },
-            {
-              "type": "h2",
-              "text": "3. Risques identifiés à horizon 6 mois"
-            },
-            {
-              "type": "p",
-              "text": "Sans recrutement ciblé : (1) surcharge critique de Camille Ott, seule à pouvoir absorber partiellement les 3 familles manquantes — risque RH direct sur une collaboratrice clé ; (2) défaillance probable sur la phase de reporting réglementaire du pilote Northgate (livrables attendus semaines 28 et 36) ; (3) fragilisation de la crédibilité de Lumio Health lors des appels d'offres suivants, notamment dans le secteur mutualiste où la réputation se construit sur les retours d'expérience des pairs. Le présent écart de compétences justifie l'ouverture immédiate d'un poste dédié, avec un profil calibré sur les 3 familles documentées ci-dessus."
-            },
-            {
-              "type": "callout",
-              "text": "Décision actée — 14 mars 2025 : Théo Marczak mandate la fonction RH pour ouvrir le processus de recrutement du poste « Chargé(e) de Projets Partenariats Santé » avec une cible d'onboarding opérationnel avant la semaine 18. La cartographie GEPP complète (tous pôles) sera finalisée en juin 2025 lors de la revue semestrielle."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "D6",
-      "type": "deck",
       "tab": "RAPPORT",
-      "title": "Analyse des départs en période d'essai — Lumio Health 2023-2024",
-      "subtitle": "Rapport interne — Usage restreint DRH & Direction — Théo Marczak, CEO — 14 mars 2025",
-      "date": "14 mars 2025",
-      "accent": "#7a756c",
-      "confidential": "CONFIDENTIEL",
-      "slides": [
-        {
-          "titre": "Ce que les chiffres disent : 5 ruptures en 24 mois",
-          "contenu": "Sur la période janvier 2023 – décembre 2024, Lumio Health a enregistré 5 ruptures de période d'essai pour 18 recrutements CDI réalisés, soit un taux de rupture de 27,8 %. La durée moyenne avant rupture est de 6,2 semaines — en deçà du seuil des 2 mois qui marque généralement l'ancrage dans le poste. Profils concernés : 2 profils tech (Dev & Data), 1 chargé(e) de projets partenariats, 1 profil marketing digital, 1 office manager. 4 ruptures ont été initiées par le collaborateur, 1 par la hiérarchie. Coût estimé par départ (recrutement + perte de productivité) : entre 8 000 € et 14 000 € selon le poste. Coût total estimé sur la période : 52 000 €. Ces chiffres ne sont pas anecdotiques pour une structure de 34 ETP."
-        },
-        {
-          "titre": "Les causes identifiées : le déficit culturel et managérial au cœur du problème",
-          "contenu": "Entretiens de sortie conduits entre janvier 2023 et décembre 2024 (4 réalisés sur 5) — verbatims anonymisés analysés par la RH en janvier 2025. 3 ruptures sur 5 (60 %) font explicitement référence à un défaut d'accompagnement dans les premières semaines : absence de référent identifié, flou sur les priorités réelles du poste, sentiment d'isolement dans la culture maison. Verbatim représentatif (profil partenariats, départ semaine 7) : « J'avais l'impression d'avoir été recrutée pour un poste, et d'en découvrir un autre une fois en poste. Personne n'avait vraiment le temps de m'expliquer comment ça fonctionnait ici. » 1 rupture supplémentaire cite un désalignement valeurs/pratiques managériales observées. Seule 1 rupture est attribuable à un désajustement de compétences techniques — la seule que l'on pouvait théoriquement anticiper en amont."
-        },
-        {
-          "titre": "Ce qui manque : trois failles structurelles dans notre onboarding actuel",
-          "contenu": "Faille 1 — Absence de parcours formalisé : aucun document d'onboarding standardisé n'existe à ce jour. Chaque manager improvise selon sa charge et sa disponibilité. Faille 2 — Pas de référent culturel désigné : le buddy system évoqué lors du séminaire 2022 n'a jamais été déployé. Les nouveaux arrivants n'ont pas d'interlocuteur dédié pour les dimensions non-techniques (codes internes, culture inclusive, rythme d'équipe). Faille 3 — Aucun point de suivi structuré avant J+30 : le premier échange formel RH intervient aujourd'hui à la fin de la période d'essai, trop tard pour corriger une trajectoire. À noter : Yassine Morel (Content Manager, RQTH) a lui-même signalé en novembre 2024 que son intégration avait été « approximative » sur les aménagements attendus — signal qui aurait dû déclencher une revue.",
-          "callout": "Alerte D&I : l'absence de protocole onboarding différencié expose Lumio Health à des manquements sur ses obligations d'accompagnement des collaborateurs RQTH. Ce point est non négociable avant tout nouveau recrutement."
-        },
-        {
-          "titre": "Ce que cela implique pour l'Opération Pulse — et au-delà",
-          "contenu": "Le recrutement imminent d'un(e) Chargé(e) de Projets Partenariats Santé dans le cadre du contrat Northgate ne peut pas reproduire le scénario de 2023 (rupture semaine 7, même profil). La refonte du parcours d'intégration est une condition de réussite du projet, pas un bonus RH. Recommandations prioritaires : (1) Concevoir un parcours onboarding structuré sur 90 jours avec jalons à J+7, J+30, J+60, J+90. (2) Désigner un buddy parmi les profils B2B existants — Camille Ott, sur la base du volontariat, serait le profil idéal. (3) Créer un kit culture Lumio transmis dès la signature de contrat, avant le premier jour. (4) Intégrer un protocole d'accueil différencié pour les profils RQTH, co-construit avec la médecine du travail. Ces actions doivent être opérationnelles avant l'arrivée de la future recrue, soit d'ici fin avril 2025 au plus tard."
-        }
-      ]
-    },
-    {
-      "id": "D7",
-      "type": "deck",
-      "tab": "DASHBOAR",
-      "title": "Dashboard RH — Recrutement & Intégration",
-      "subtitle": "Lumio Health · T1 2025 · Usage interne — Théo Marczak, CEO · 14 mars 2025",
-      "date": "14 mars 2025",
+      "title": "Audit réputation marque employeur Lumio Health — Synthèse Q1 2025",
       "accent": "#134547",
-      "confidential": "CONFIDENTIEL",
-      "slides": [
-        {
-          "titre": "Vue d'ensemble : où en sommes-nous ?",
-          "contenu": "Lumio Health compte aujourd'hui 34 collaborateurs. Depuis janvier 2025, 3 recrutements ont été lancés, dont 1 seul finalisé (Sonia Ferracci, DirMkt, intégrée le 6 janvier).\n\nLe poste de Chargé(e) de Projets Partenariats Santé n'existe pas encore dans l'organigramme — création urgente requise sous 8 semaines, deadline Northgate fixée au 9 mai 2025.\n\nCette pression contractuelle impose de mesurer nos performances RH réelles avant de nous lancer, pour ne pas répéter les erreurs des cycles précédents."
-        },
-        {
-          "titre": "Nos 4 indicateurs clés — T1 2025",
-          "contenu": "📅 Délai moyen de recrutement : 52 jours · Benchmark secteur medtech : 38 jours → écart de +14 jours, soit 37 % au-dessus du marché. Cause identifiée : boucles de validation longues entre RH et managers.\n\n✅ Taux d'acceptation des offres : 61 % · Objectif interne : 75 %. Sur 3 offres formulées en 2024, 1 refus et 1 contre-offre non aboutie. Signal faible sur notre attractivité salariale ou notre pitch employeur.\n\n⚠️ Taux de rupture de période d'essai : 22 % · Benchmark : 12 % (ANDRH 2024). 1 rupture sur 4,5 recrutements en moyenne. Coût humain et financier significatif.\n\n💶 Coût moyen par recrutement : 4 200 € · Dont 60 % en honoraires cabinet externe, 25 % en temps manager mobilisé, 15 % en outils. Pas encore de sourcing interne structuré."
-        },
-        {
-          "titre": "Interprétation : 3 signaux d'alerte",
-          "contenu": "1/ Le délai de 52 jours est incompatible avec la deadline Northgate : si nous démarrons aujourd'hui, nous terminons le 5 mai — marge quasi nulle. Tout retard administratif ou tour d'entretien supplémentaire fait sauter l'échéance.\n\n2/ Un taux de rupture de PE à 22 % suggère un déficit d'onboarding structuré et/ou un écart entre le poste vendu et le poste réel. Sur un profil rare comme Chargé(e) de Projets Santé Numérique, une rupture coûterait 4 200 € + 4 à 6 semaines perdues — fatal pour le pilote Northgate.\n\n3/ Le taux d'acceptation à 61 % indique que nous ne convainquons pas suffisamment à l'étape offre. Notre marque employeur n'est pas encore un levier actif : absence de page Careers structurée, témoignages collaborateurs inexistants, Glassdoor non animé.",
-          "callout": "⚡ Risque consolidé : si nous lançons le recrutement sans corriger ces 3 points, la probabilité d'échec avant le 9 mai dépasse 40 %. Action immédiate requise."
-        },
-        {
-          "titre": "Préconisations prioritaires — Opération Pulse",
-          "contenu": "→ Compresser le délai : cible 35 jours max. Supprimer un tour de validation, désigner Camille Ott comme décisionnaire terrain aux côtés de Théo. Décision finale en binôme, pas en comité.\n\n→ Activer la marque employeur avant la publication de l'offre : 1 post LinkedIn par Théo (vision produit + culture), 1 témoignage Yassine ou Camille sur le quotidien projet. Délai : J+3.\n\n→ Retravailler la promesse employeur dans l'offre : package complet (salaire, flex, sens mission santé), mention explicite politique RQTH & inclusion — différenciant sur ce profil.\n\n→ Concevoir un onboarding structuré sur 30 jours avant même la signature du contrat : kit J1, buddy désigné (Camille Ott), point RH hebdo semaines 1 à 4. Objectif : ramener le taux de rupture PE sous 10 % d'ici T2 2025.\n\n→ Mesurer à l'issue : NPS candidat, délai réel, coût réel, taux acceptation. Restitution à Jakob Rein et équipe direction en juin 2025."
-        }
-      ]
-    },
-    {
-      "id": "D8",
-      "type": "rich",
-      "tab": "ÉCHANGE",
-      "title": "WhatsApp — Camille & Yassine — 14 mars 2025",
-      "accent": "#1b4f8a",
-      "runningHead": "ÉCHANGE WHATSAPP",
+      "runningHead": "RAPPORT D'AUDIT",
       "pages": [
         {
-          "kicker": "CONVERSATION PRIVÉE — NON DIFFUSABLE",
-          "title": "Opération Pulse : ce qui se dit en coulisses",
-          "byline": "Camille Ott & Yassine Morel · Vendredi 14 mars 2025 · 18h42–19h17",
+          "kicker": "RAPPORT INTERNE — CONFIDENTIEL",
+          "title": "Marque employeur : état des lieux critique avant le lancement européen",
+          "byline": "Yassine Morel, Content & Comms Manager · 14 avril 2025",
           "blocks": [
             {
               "type": "p",
-              "text": "🟢 Camille Ott — 18h42\nYassine, t'as vu le mail de Théo ? Il veut le process de recrutement bouclé pour lundi. Je sais pas trop comment la RH va gérer ça en 8 semaines, mais j'ai une idée. Jakob m'a dit en off qu'il connaît un gars — ex-Withings, maintenant freelance, spé projets santé numérique. Profil exactement ce qu'on cherche. Je me disais que je pouvais le contacter directement, on gagne 3 semaines facilement."
-            },
-            {
-              "type": "p",
-              "text": "🟢 Yassine Morel — 18h51\nJe comprends l'urgence, Camille, vraiment. Mais là t'es en train de dire qu'on bypasse complètement le process RH ? On n'a même pas encore de fiche de poste validée. Et si ce type est un contact de Jakob, ça pose un problème d'indépendance non ? On serait redevables envers Northgate avant même d'avoir signé le contrat complet."
-            },
-            {
-              "type": "p",
-              "text": "🟢 Camille Ott — 18h58\nT'as pas tort, mais Théo est sous pression extrême là. 8 semaines c'est rien. Et je vois pas comment on va trouver un profil wearable + gestion de projet santé + culture startup en passant par France Travail ou Welcome to the Jungle. Ce mec, il coche tout. Je voulais juste en parler à Théo direct, sans passer par la case RH."
+              "text": "À la demande de Théo Marczak, j'ai conduit entre le 3 et le 11 avril 2025 un audit rapide de notre réputation employeur sur les canaux publics et internes. Le calendrier du lancement Lumio Pulse en Europe du Nord impose de disposer d'un diagnostic clair avant d'engager les deux recrutements stratégiques validés en comité. Les conclusions sont préoccupantes et appellent des actions immédiates."
             },
             {
               "type": "h2",
-              "text": "⚠️ Tension sur l'annonce — 19h03"
+              "text": "1. Visibilité externe : quasi-inexistante"
             },
             {
               "type": "p",
-              "text": "🟢 Yassine Morel — 19h03\nOk mais j'ai un autre truc qui m'embête. Sonia m'a demandé de rédiger l'annonce pour lundi. J'ai commencé, mais il y a des formulations que je suis pas sûr de pouvoir utiliser légalement — genre 'profil dynamique et disponible immédiatement' ou les critères de mobilité qu'elle veut mettre. Ça a été relu par un juriste ? Parce que moi je valide rien sans validation juridique. Je veux pas qu'on se retrouve avec une annonce discriminatoire publiée sous mon nom."
-            },
-            {
-              "type": "p",
-              "text": "🟢 Camille Ott — 19h09\nHonnêtement ? Non. Théo veut publier vite, Sonia veut que ça sonne 'marque employeur', et personne n'a parlé de validation juridique. C'est exactement le genre de truc qui passe à la trappe sous pression. Mais t'as raison de bloquer. Si t'es pas à l'aise, ne publie pas. On peut pas se permettre une annonce retoquée ou un recrutement contesté en plus de tout le reste."
+              "text": "La page LinkedIn Lumio Health affiche 312 abonnés au 11 avril 2025, contre une médiane de 1 800 abonnés pour des medtechs françaises comparables à notre stade (série A, 25-40 salariés, source : benchmark LinkedIn Talent Insights mars 2025). Aucune publication dédiée à la vie d'entreprise ou aux offres d'emploi n'a été diffusée depuis août 2024. Sur Glassdoor, notre profil est non revendiqué, sans aucune note ni avis enregistré. Welcome to the Jungle : profil inexistant. La requête 'Lumio Health emploi' sur Google ne remonte aucun résultat de marque employeur en première page. En l'état, un candidat nordique qui nous cherche ne nous trouve pas."
             },
             {
               "type": "callout",
-              "text": "📌 Deux signaux d'alerte à remonter au RH de toute urgence :\n1. Camille envisage d'intégrer un candidat via le réseau direct de Jakob Rein (Northgate), sans appel à candidatures ouvert — risque de favoritisme, de dépendance vis-à-vis du partenaire, et de non-conformité au principe d'égal accès.\n2. Yassine refuse — à juste titre — de publier une annonce non relue juridiquement. Des critères potentiellement discriminatoires (disponibilité immédiate, mobilité non justifiée) ont été identifiés dans le draft. La validation par un juriste RH est indispensable avant toute diffusion."
+              "text": "⚠️ Glassdoor : 0 avis, profil non revendiqué. LinkedIn : 312 abonnés, 0 post RH depuis 8 mois. Résultat : invisibilité totale pour tout candidat en due diligence employeur."
             },
             {
               "type": "h2",
-              "text": "La question qui reste en suspens — 19h17"
+              "text": "2. Signaux internes : ambiance fragilisée post-levée"
             },
             {
               "type": "p",
-              "text": "🟢 Yassine Morel — 19h17\nDis-moi franchement : t'en parles à qui lundi ? Parce que si personne ne cadre ça, on va se retrouver avec un recrutement expédié, une annonce bancale et un candidat soufflé par notre investisseur. Et nous deux, on aura rien dit. C'est pas le genre de boîte que Théo veut construire, normalement."
+              "text": "J'ai mené 9 entretiens informels avec des collaborateurs en poste (équipes produit, sales, ops) entre le 7 et le 10 avril. Trois thèmes reviennent de façon récurrente : une incertitude sur la direction stratégique depuis l'entrée de Northgate Capital en janvier 2025, un sentiment de manque de reconnaissance sur les efforts fournis lors du sprint Q4 2024, et une communication interne jugée insuffisante sur les décisions structurantes. Ces signaux concordent avec le taux de rupture de période d'essai relevé sur les 18 derniers mois : 40 %, soit 4 départs sur 10 recrutements. Ce chiffre est deux fois supérieur à la moyenne du secteur (environ 20 %, source : Baromètre RH Apec 2024). Les causes identifiées : promesses de poste mal calibrées lors des entretiens, absence d'onboarding structuré, et atterrissage brutal dans une organisation en tension."
+            },
+            {
+              "type": "callout",
+              "text": "📊 Taux de rupture PE : 40 % sur 18 mois (N=10 recrutements). Coût estimé par départ prématuré : 15 000 à 25 000 € (recrutement + formation + perte productivité). Soit un coût cumulé potentiel de 60 000 à 100 000 € absorbé en silence."
+            },
+            {
+              "type": "h2",
+              "text": "3. Priorités recommandées avant le 30 avril"
             },
             {
               "type": "p",
-              "text": "🟢 Camille Ott — 19h17\nT'as raison. Je vais en parler à la RH avant de faire quoi que ce soit. Mais quelqu'un doit tenir ce rôle vraiment — pas juste admin, un vrai garant du process. Parce que là, entre la pression de Jakob, les délais de Théo et l'annonce que personne n'a relue, c'est le process qui trinque. Et derrière le process, c'est les candidats."
+              "text": "Trois actions sont réalisables immédiatement sans budget significatif : (1) revendiquer et compléter le profil Glassdoor cette semaine, en publiant une réponse employeur type préparée en amont ; (2) lancer une série de 4 à 6 posts LinkedIn 'coulisses Lumio' d'ici fin avril, à partir de témoignages collaborateurs existants — je peux produire les briefs sous 48h ; (3) formaliser un kit onboarding minimal pour les deux arrivées prévues, en coordination avec Camille Ott, afin d'éviter une nouvelle rupture PE qui serait cette fois visible de Jakob Rein et du réseau nordique. La marque employeur ne se construit pas en six mois, mais elle peut cesser de nous nuire activement en six semaines si nous agissons maintenant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DOC-02",
+      "type": "rich",
+      "tab": "DEMANDE",
+      "title": "Demande de recrutement interne — Opération Pulse",
+      "accent": "#1b4f8a",
+      "runningHead": "DEMANDE DE RECRUTEMENT I",
+      "pages": [
+        {
+          "kicker": "CONFIDENTIEL — RH & DIRECTION",
+          "title": "Besoin urgent : Business Developer Senior marchés nordiques + Chargé(e) partenariats santé au travail",
+          "byline": "Camille Ott, Responsable B2B · Lundi 14 avril 2025",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Dans le cadre du lancement de Lumio Pulse en Europe du Nord, prévu pour octobre 2025, je sollicite l'ouverture immédiate de deux postes à forte criticité. Ces recrutements conditionnent directement notre capacité à honorer les engagements pris auprès de nos partenaires distributeurs — notamment Northgate Capital (Stockholm) — et à structurer notre développement commercial sur les marchés scandinaves."
+            },
+            {
+              "type": "h2",
+              "text": "Poste 1 — Business Developer Senior, marchés nordiques"
+            },
+            {
+              "type": "p",
+              "text": "Périmètre : développement du pipeline commercial en Suède, Finlande, Danemark et Norvège. Le candidat devra impérativement être opérationnel avant le 15 juin 2025 : Jakob Rein (Northgate Stockholm) a posé comme condition sine qua non de rencontrer notre représentant commercial avant la signature du contrat de distribution, estimé à 400 000 € sur 18 mois. Profil attendu : 5 ans minimum d'expérience en développement B2B, idéalement en medtech ou santé numérique, maîtrise courante de l'anglais et d'une langue nordique (suédois ou danois privilégié), culture des cycles de vente longs, capacité à représenter la marque en autonomie totale. Fourchette salariale cible : 55 000–65 000 € brut annuel + variable (à valider avec Théo). Statut : CDI, poste basé à Paris avec déplacements fréquents (30–40 %)."
+            },
+            {
+              "type": "callout",
+              "text": "⚠ Échéance absolue : le Business Developer Senior doit être signé et briefé avant le 15 juin 2025 — date butoir fixée par Northgate Capital pour la réunion de validation du partenariat."
+            },
+            {
+              "type": "h2",
+              "text": "Poste 2 — Chargé(e) de partenariats santé au travail"
+            },
+            {
+              "type": "p",
+              "text": "Périmètre : activation et suivi des partenariats avec mutuelles, services de santé au travail, médecins du travail et grands comptes RH en vue du lancement. Ce profil viendra en soutien direct de mes actions terrain et permettra de ne pas saturer l'équipe existante (actuellement 2 personnes). Compétences clés : expérience de 2 à 4 ans en gestion de partenariats B2B, sensibilité aux enjeux QVT et santé au travail, aisance relationnelle avec des interlocuteurs institutionnels. Prise de poste souhaitée : 1er septembre 2025 au plus tard. Fourchette salariale : 38 000–44 000 € brut annuel. Statut : CDI, Paris."
+            },
+            {
+              "type": "h2",
+              "text": "Contraintes transverses à intégrer dès la conception du processus"
+            },
+            {
+              "type": "p",
+              "text": "Je signale trois points de vigilance que je demande à l'équipe RH de traiter en amont : (1) Notre taux de rupture de période d'essai sur les 18 derniers mois atteint 40 % — un chiffre qui impose une révision sérieuse de nos critères de sélection et de notre processus d'intégration. (2) Lumio Health est quasi invisible sur LinkedIn et les plateformes professionnelles ; nos offres doivent s'accompagner d'un minimum de travail de marque employeur pour attirer des profils de ce niveau. (3) Les deux recrutements devront respecter nos engagements en matière d'inclusion : processus anonymisé en première phase, accessibilité des entretiens, et prise en compte des éventuels besoins d'aménagement (cf. politique RQTH en vigueur)."
+            },
+            {
+              "type": "callout",
+              "text": "📌 Je reste disponible pour tout échange avec l'équipe RH dès cette semaine. Merci de me confirmer l'ouverture officielle des deux postes d'ici le vendredi 18 avril — chaque jour compte sur le Poste 1."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DOC-03",
+      "type": "rich",
+      "tab": "SONDAGE",
+      "title": "Résultats enquête satisfaction collaborateurs — Mars 2025",
+      "accent": "#1a6641",
+      "runningHead": "SONDAGE INTERNE",
+      "pages": [
+        {
+          "kicker": "SONDAGE INTERNE — CONFIDENTIEL",
+          "title": "Baromètre collaborateurs Lumio Health · Mars 2025",
+          "byline": "Yassine Morel, Content & Comms Manager · 14 avril 2025",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ce baromètre a été conduit du 3 au 21 mars 2025 auprès de l'ensemble des collaborateurs de Lumio Health. Sur 34 personnes sollicitées, 29 ont répondu, soit un taux de participation de 85 %. Le questionnaire anonyme couvrait cinq axes : culture d'entreprise, communication interne, perspectives d'évolution, conditions de travail et fierté d'appartenance. Les résultats sont présentés ici sans filtre, conformément à l'engagement de transparence pris en janvier 2025."
+            },
+            {
+              "type": "callout",
+              "text": "NPS collaborateur global : 28 / 100 — En dessous du seuil de 40 considéré comme satisfaisant pour une scale-up en phase de croissance. Signal d'alerte à traiter en priorité avant tout recrutement externe."
+            },
+            {
+              "type": "h2",
+              "text": "Ce qui fonctionne : deux points forts identifiés"
+            },
+            {
+              "type": "p",
+              "text": "L'innovation produit arrive en tête des motifs de fierté : 83 % des répondants déclarent être « fiers ou très fiers » de travailler sur une technologie concrète et utile. Les verbatims sont éloquents — « On fait quelque chose qui a du sens », « Le produit justifie les efforts ». La flexibilité des horaires et le télétravail partiel (2 jours/semaine) recueillent également 76 % de satisfaction, perçus comme un marqueur fort de confiance managériale. Ces deux leviers constituent la base solide sur laquelle construire un discours de marque employeur crédible."
+            },
+            {
+              "type": "h2",
+              "text": "Ce qui coince : deux points faibles structurels"
+            },
+            {
+              "type": "p",
+              "text": "La communication interne est le point le plus dégradé : 62 % des répondants estiment ne pas être informés des décisions stratégiques « en temps utile ». Plusieurs mentionnent avoir appris le pivot B2C via des canaux externes avant toute communication officielle. Par ailleurs, 58 % déclarent ne pas savoir ce qu'ils pourraient devenir dans l'entreprise dans 18 à 24 mois : absence de grille d'évolution formalisée, pas d'entretiens de développement systématiques, aucune visibilité sur les recrutements prévus. Ce second point est directement corrélé au taux de rupture de période d'essai observé à 40 % sur les douze derniers mois."
+            },
+            {
+              "type": "callout",
+              "text": "Verbatim représentatif (répondant anonyme, pôle tech) : « Je suis venu pour l'aventure Lumio, mais j'ai parfois l'impression de courir sans savoir vers où. On manque de cap partagé au quotidien. »"
+            },
+            {
+              "type": "h2",
+              "text": "Recommandations prioritaires"
+            },
+            {
+              "type": "p",
+              "text": "Trois actions sont proposées pour les 60 prochains jours. Premièrement, instaurer un point stratégique mensuel all-hands de 30 minutes, animé par Théo, pour restaurer la lisibilité des décisions. Deuxièmement, formaliser une cartographie des perspectives d'évolution par pôle, à partager lors des prochains entretiens individuels (mai 2025). Troisièmement, intégrer ces résultats dans la construction de la marque employeur en cours : les futurs candidats au poste de Business Developer et au poste de chargé(e) de partenariats doivent pouvoir s'appuyer sur une promesse employeur sincère, adossée à des preuves internes vérifiables — pas sur un discours marketing déconnecté du vécu réel des équipes."
+            },
+            {
+              "type": "callout",
+              "text": "Note de l'auteur — Y. Morel : Ces résultats doivent être partagés avec les collaborateurs avant toute communication externe sur notre marque employeur. Publier une promesse RH sans avoir d'abord répondu aux attentes internes serait contre-productif, et perceptible. La crédibilité se construit de l'intérieur."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DOC-04",
+      "type": "rich",
+      "tab": "SYNTHÈSE",
+      "title": "Cartographie des compétences et plan de recrutement 2025-2026 — Lumio Health",
+      "accent": "#c4420f",
+      "runningHead": "SYNTHÈSE GEPP",
+      "pages": [
+        {
+          "kicker": "SYNTHÈSE GEPP — CONFIDENTIEL CODIR",
+          "title": "Opération Pulse : cartographie des compétences et priorisation des recrutements",
+          "byline": "Théo Marczak, CEO · Lundi 14 avril 2025",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Dans le cadre du lancement de Lumio Pulse en Europe du Nord prévu en octobre 2025, le CODIR du 11 avril a validé une revue complète de nos ressources humaines actuelles. Cette synthèse GEPP formalise l'état des compétences disponibles, les écarts critiques identifiés et la feuille de route de recrutement approuvée. Elle constitue le document de référence pour toutes les décisions RH liées à l'Opération Pulse."
+            },
+            {
+              "type": "h2",
+              "text": "1. État des compétences actuelles — équipe commerciale B2B"
+            },
+            {
+              "type": "p",
+              "text": "L'équipe B2B compte aujourd'hui 6 collaborateurs pilotés par Camille Ott. Leurs forces sont avérées sur le marché français : maîtrise du cycle de vente santé au travail, gestion de comptes grands groupes (180 clients actifs, taux de rétention 91 % en 2024), et connaissance produit solide. En revanche, trois lacunes majeures ressortent de la cartographie : (1) aucun collaborateur ne maîtrise les marchés nordiques ni leurs cadres réglementaires spécifiques (directive suédoise AFS 2015:4, marché danois des mutuelles employeur) ; (2) le réseau de partenaires institutionnels santé au travail en dehors de la France est inexistant ; (3) aucune compétence interne en négociation de contrats de distribution internationale n'est disponible, ce qui fragilise directement la signature prévue avec Northgate Capital Stockholm en juin 2025."
+            },
+            {
+              "type": "callout",
+              "text": "⚠ Risque CODIR validé : Jakob Rein (Northgate Stockholm) conditionne la signature du contrat de distribution à une rencontre avec le futur Business Developer Senior avant fin juin 2025. Sans recrutement abouti d'ici le 31 mai, le partenariat nordique est compromis."
+            },
+            {
+              "type": "h2",
+              "text": "2. Écarts prioritaires et postes à pourvoir"
+            },
+            {
+              "type": "p",
+              "text": "Deux postes ont été classés critiques par le CODIR. Poste 1 — Business Developer Senior Marchés Nordiques (priorité absolue, démarrage cible : 2 juin 2025) : profil expert en développement commercial B2B sur les marchés scandinaves, bilingue anglais-suédois ou anglais-danois, avec une expérience prouvée en medtech ou healthtech. Ce poste couvre le manque le plus immédiat et conditionne le calendrier de lancement. Poste 2 — Chargé(e) de Partenariats Santé au Travail Europe (priorité haute, démarrage cible : 1er septembre 2025) : profil orienté écosystème institutionnel, capable de nouer des accords avec mutuelles, CHSCT et acteurs RH en Allemagne et au Benelux. Ce second recrutement sécurise la durabilité du pipeline au-delà de l'ouverture nordique."
+            },
+            {
+              "type": "h2",
+              "text": "3. Mesures d'accompagnement — enrayer les ruptures de période d'essai"
+            },
+            {
+              "type": "p",
+              "text": "Le taux de rupture de période d'essai de 40 % constaté sur les 18 derniers mois est inacceptable et coûteux — nous estimons le coût moyen d'une rupture à 12 000 € (recrutement + formation + perte de productivité). L'audit de réputation d'avril 2025 confirme que notre quasi-invisibilité sur LinkedIn et Welcome to the Jungle aggrave l'attractivité et génère des candidatures mal alignées. En réponse, trois mesures sont intégrées dès ce cycle : (1) refonte des fiches de poste avec critères objectivés et contexte culturel Lumio explicite ; (2) mise en place d'un parcours d'onboarding structuré sur 90 jours incluant un point RH à J+30 et J+60 ; (3) activation d'une page marque employeur LinkedIn d'ici le 30 avril 2025, portée par Sonia Ferracci."
+            },
+            {
+              "type": "callout",
+              "text": "✅ Décision CODIR du 11 avril : budget recrutement exceptionnel de 38 000 € alloué pour les deux postes (cabinet spécialisé medtech + diffusion multi-canaux). Objectif : zéro rupture de période d'essai sur ces deux recrutements stratégiques."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DOC-06",
+      "type": "rich",
+      "tab": "RAPPORT",
+      "title": "Analyse des ruptures de période d'essai 2023-2024 — Lumio Health",
+      "accent": "#7a756c",
+      "runningHead": "RAPPORT RH INTERNE",
+      "pages": [
+        {
+          "kicker": "RAPPORT RH INTERNE — CONFIDENTIEL",
+          "title": "Pourquoi perdons-nous 4 recrues sur 10 avant la fin de leur période d'essai ?",
+          "byline": "Théo Marczak, CEO · Lundi 14 avril 2025",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ce rapport fait suite à l'audit de réputation conduit en mars 2025, qui a mis en lumière un chiffre que je ne peux plus ignorer : 40 % de nos recrues entre janvier 2023 et décembre 2024 ont quitté Lumio Health avant la fin de leur période d'essai, soit 8 départs sur 20 embauches sur la période. C'est un signal d'alarme stratégique, pas seulement RH. Chaque rupture nous coûte en moyenne 3 à 4 mois de salaire chargé, sans compter la désorganisation des équipes et l'impact sur notre image employeur — déjà fragile."
+            },
+            {
+              "type": "h2",
+              "text": "Cause n°1 — Absence de parcours d'intégration structuré"
+            },
+            {
+              "type": "p",
+              "text": "Aucun des 20 recrutements réalisés sur la période ne s'est appuyé sur un plan d'onboarding formalisé. Les nouveaux arrivants découvraient leurs outils, leurs interlocuteurs et leurs objectifs au fil des jours, parfois au fil des semaines. Trois témoignages recueillis lors des entretiens de sortie mentionnent explicitement un sentiment d'abandon lors des premières semaines. Sans cap clair dès le premier jour, la période d'essai devient une zone de flottement qui fragilise l'engagement."
+            },
+            {
+              "type": "h2",
+              "text": "Cause n°2 — Managers non briefés sur leur rôle d'intégrateur"
+            },
+            {
+              "type": "p",
+              "text": "Les responsables d'équipe — Camille Ott en B2B, Yassine Morel côté content — n'ont reçu aucune consigne précise sur l'accompagnement attendu pendant la période d'essai. Pas de points de suivi formalisés à J+15, J+30 ou J+60. Dans au moins quatre cas documentés, la rupture a été initiée par le manager lui-même, faute de visibilité sur la montée en compétences du collaborateur et sans grille d'évaluation partagée. Le problème n'est pas la compétence des managers : c'est l'absence de cadre."
+            },
+            {
+              "type": "h2",
+              "text": "Cause n°3 — Décalage entre promesse employeur et réalité du poste"
+            },
+            {
+              "type": "p",
+              "text": "Les offres d'emploi diffusées en 2023 et 2024 mettaient en avant une dimension 'scale-up dynamique à impact' sans détailler les contraintes réelles : ressources limitées, repositionnement stratégique en cours, forte pression des délais. Cinq candidats sur les huit départs anticipés ont évoqué, lors de leur entretien de sortie, une réalité du quotidien sensiblement différente de ce qui leur avait été présenté. Ce décalage génère une rupture de confiance rapide, difficile à réparer dans les premiers mois."
+            },
+            {
+              "type": "callout",
+              "text": "POINT CLÉ — Avec deux recrutements stratégiques à finaliser avant juin 2025 (Business Developer Senior marchés nordiques + Chargé·e de partenariats santé au travail) et une échéance contractuelle avec Jakob Rein de Northgate Capital, nous ne pouvons pas nous permettre de reproduire ces erreurs. Ce rapport pose le diagnostic. Les mesures correctives — parcours d'onboarding structuré, brief manager systématique, refonte de la promesse employeur — feront l'objet d'un plan d'action dédié soumis pour validation d'ici le 25 avril 2025."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DOC-08",
+      "type": "rich",
+      "tab": "TABLEAU",
+      "title": "Tableau de bord — Suivi pipeline candidats Opération Pulse, semaine 2",
+      "accent": "#1b4f8a",
+      "runningHead": "TABLEAU DE BORD",
+      "pages": [
+        {
+          "kicker": "USAGE INTERNE — CONFIDENTIEL",
+          "title": "Opération Pulse · Pipeline recrutement · Semaine 2",
+          "byline": "Camille Ott, Responsable B2B · Lundi 28 avril 2025",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Ce tableau de bord récapitule l'état du sourcing au terme de la deuxième semaine de l'Opération Pulse. Deux postes sont ouverts : Business Developer Senior marchés nordiques (BD-Nord) et Chargé·e de partenariats santé au travail (PST). La fenêtre de recrutement reste serrée : le futur Business Developer doit être opérationnel avant la réunion avec Jakob Rein (Northgate Stockholm, juin 2025)."
+            },
+            {
+              "type": "h2",
+              "text": "1. Chiffres clés au 28 avril 2025"
+            },
+            {
+              "type": "p",
+              "text": "47 candidatures reçues au total (BD-Nord : 29 · PST : 18). 12 profils présélectionnés après lecture CV + vérification critères socles (29 BD-Nord → 8 retenus ; 18 PST → 4 retenus). 3 entretiens de premier niveau planifiés cette semaine (2 BD-Nord les 29 et 30 avril avec Théo Marczak et moi-même ; 1 PST le 2 mai). 2 désistements enregistrés : un profil BD-Nord a accepté une offre concurrente avant convocation ; un profil PST s'est retiré après réception de la fiche de poste, motif invoqué — manque de visibilité sur la trajectoire B2C de Lumio Health."
+            },
+            {
+              "type": "callout",
+              "text": "⚠️ Taux de désistement post-présélection : 14,3 % (2 sur 14 contactés). Signal précoce à surveiller — cohérent avec l'audit marque employeur qui révèle une faible notoriété sur LinkedIn et un discours employeur insuffisamment différenciant."
+            },
+            {
+              "type": "h2",
+              "text": "2. Performance des canaux de sourcing"
+            },
+            {
+              "type": "p",
+              "text": "LinkedIn Recruiter génère 26 candidatures (55 %), dont 9 présélectionnées : meilleur ratio qualité/volume. Welcome to the Jungle apporte 13 candidatures (28 %), 2 présélectionnées seulement — profils trop juniors pour BD-Nord, pertinents sur PST. Le réseau direct (recommandations internes, contacts Camille Ott) produit 6 candidatures (13 %), 1 présélectionnée BD-Nord très prometteuse, issue du réseau QVT nordique. Jobteaser : 2 candidatures hors cible, non retenues. Conclusion provisoire : LinkedIn Recruiter et le réseau direct concentrent 83 % de la valeur réelle du pipeline. Recommandation : concentrer le budget restant (estimé à 1 200 € sur les 3 000 € alloués) sur LinkedIn InMail ciblé marchés scandinaves et activation du réseau santé au travail via Camille."
+            },
+            {
+              "type": "callout",
+              "text": "✅ Bonne pratique identifiée : les annonces intégrant le label RQTH et la mention politique d'aménagement de poste (initiée suite à la situation de Yassine Morel) ont généré +22 % de candidatures sur le poste PST par rapport à la version initiale sans mention inclusion. À systématiser."
+            },
+            {
+              "type": "h2",
+              "text": "3. Points de friction et actions correctives"
+            },
+            {
+              "type": "p",
+              "text": "Trois frictions majeures ont été identifiées. (1) Délai de réponse candidats : le premier accusé de réception automatique n'était pas paramétré les quatre premiers jours — corrigé le 24 avril, mais trois candidats n'ont reçu aucun retour pendant 72 h, ce qui peut expliquer un désistement. (2) Clarté de la fiche de poste BD-Nord : deux candidats ont posé des questions similaires sur le périmètre géographique exact et la relation avec Northgate Capital — une FAQ candidat d'une page sera intégrée à la prochaine vague de diffusion, rédigée avec Sonia Ferracci. (3) Visibilité marque employeur : la page LinkedIn Lumio Health affiche 312 abonnés et aucune publication depuis le 3 mars. Les candidats nordiques notamment consultent systématiquement les réseaux avant de postuler. Une publication de Théo Marczak sur la vision Lumio Pulse Europe est prévue pour le 30 avril — à confirmer d'urgence."
+            },
+            {
+              "type": "callout",
+              "text": "📅 Prochaine échéance critique : entretien BD-Nord le 29 avril (candidat Mikael S., 8 ans d'expérience marchés scandinaves, ex-Withings). Dossier de préparation envoyé à Théo. Décision go/no-go semaine 3 pour raccourcir le délai avant présentation à Jakob Rein."
             }
           ]
         }
@@ -383,14 +355,14 @@ window.LUMIO_DATA = {
   ],
   "notes": [
     {
-      "id": "D4",
-      "title": "Cadrage du poste Chargé(e) de Projets Partenariats Santé — Northgate",
-      "date": "14 mars 2025",
-      "preview": "[À COMPLÉTER — preview]",
-      "kicker": "ORGANIGRAMME ET NOTE DE CADRAGE POSTE",
+      "id": "DOC-07",
+      "title": "Charte de communication marque employeur — éléments validés pour les supports RH",
+      "date": "Lundi 14 avril 2025",
+      "preview": "Éléments de langage, visuels et valeurs officiels à intégrer dans tous les supports RH dès le 14 avril 2025.",
+      "kicker": "NOTE INTERNE — MARKETING",
       "render": "plain",
-      "body": "[À COMPLÉTER — corps de la note]\n\n(Rôle narratif : Décrit l'équipe B2B actuelle (2 chargés de compte, 1 data analyst), le positionnement hiérarchique du nouveau poste (N+1 : Camille Ott), les interactions attendues avec Théo Marczak et Jakob Rein, et les premiers livrables attendus à 3 mois. Sert de base à la fiche de poste (3.5) et au processus de recrutement (3.3).)",
-      "byline": "Camille Ott · 14 mars 2025"
+      "body": "À compter du 14 avril 2025, tout support de recrutement Lumio Health doit respecter les éléments suivants.\n\n**Valeurs à mettre en avant (dans cet ordre) :** Impact mesurable sur la santé au travail — Rigueur scientifique — Ambition européenne assumée.\n\n**Éléments de langage validés :** Utiliser « nous construisons » plutôt que « nous cherchons » ; privilégier « environnement exigeant et bienveillant » à « start-up dynamique » ; mentionner systématiquement notre ancrage parisien et notre déploiement nordique en cours. Bannir : « rockstar », « ninja », « famille ».\n\n**Palette graphique approuvée :** Bleu nuit #1B2A4A (dominant), blanc cassé #F5F3EE (fond), vert signal #3DDC97 (accent CTAs). Police : Inter 400/600 uniquement. Logo Lumio Health version horizontale — fichiers disponibles sur le Drive /Brand/2025.\n\n**Engagements à citer dans les annonces :** Politique RQTH active, processus de recrutement structuré en 3 étapes transparentes, feedback garanti sous 7 jours ouvrés après chaque entretien.\n\n**Ton :** Professionnel, direct, sans formule creuse. Les annonces sont relues par le Marketing avant publication — délai de validation : 48h ouvrées. Tout écart devra être justifié par écrit.",
+      "byline": "Sonia Ferracci, Directrice Marketing · Lundi 14 avril 2025"
     }
   ],
   "guide": {
@@ -398,28 +370,16 @@ window.LUMIO_DATA = {
     "intro": "Ce guide est là si tu te sens bloqué. Il ne donne pas les réponses — il indique où chercher.",
     "tips": [
       {
-        "titre": "3.1 — Renforcer l'attractivité de la marque employeur",
-        "body": "Appuyez-vous sur le document D1 (baromètre interne) et D2 (avis Glassdoor fictif) pour étayer votre analyse. Évitez les généralités : chaque proposition doit être reliée à un point faible identifié chez Lumio Health."
+        "titre": "3.1 — Développement et promotion d'une marque employeur positive",
+        "body": "Structurez votre réponse en trois temps : diagnostic (forces/faiblesses), plan d'action avec objectifs SMART, puis dispositifs de promotion. Citez au moins deux outils numériques concrets et reliez chaque action à un indicateur de mesure. Ne pas confondre communication interne (collaborateurs existants) et communication externe (candidats potentiels)."
       },
       {
-        "titre": "3.2 — Promouvoir la marque employeur",
-        "body": "Coordonnez-vous avec Yassine Morel (Content) pour la ligne éditoriale. Le document D3 (brief Sonia Ferracci) précise les contraintes de ton et de charte graphique à respecter."
+        "titre": "3.2 — Recrutement des nouveaux collaborateurs au sein de l'entreprise",
+        "body": "La fiche de poste doit être rédigée en écriture inclusive et mentionner explicitement les aménagements possibles pour une situation de handicap. Pour la grille d'entretien, distinguez les thématiques (motivation, compétences techniques, soft skills, dimension interculturelle nordique) et précisez la technique d'entretien retenue en la justifiant par rapport au niveau de responsabilités du poste. Pensez à intégrer les contraintes légales RGPD pour le traitement des candidatures."
       },
       {
-        "titre": "3.3 — Conduire le processus de recrutement",
-        "body": "Listez explicitement les rôles de chaque partie prenante à chaque étape. Le document D4 (organigramme Lumio Health) vous aide à identifier les décideurs. N'oubliez pas la validation finale par Théo Marczak avant toute offre."
-      },
-      {
-        "titre": "3.4 — Évaluer les besoins en compétences et en recrutement",
-        "body": "Appuyez-vous sur le document D5 (extrait GEPP Lumio Health) pour objectiver votre analyse. Évitez de conclure uniquement sur l'urgence contractuelle : montrez que le besoin est structurel."
-      },
-      {
-        "titre": "3.5 — Établir la fiche de poste",
-        "body": "La fiche de poste doit être co-construite avec Camille Ott (document D4). Soignez la rubrique inclusion : une compensation handicap générique n'est pas suffisante — précisez les aménagements envisageables pour ce poste."
-      },
-      {
-        "titre": "3.6 — Rechercher des candidats",
-        "body": "L'annonce doit être rédigée dans le respect de la loi Égalité professionnelle. Évitez les formulations genrées ou les exigences de diplôme non justifiées. Référencez-vous au document D3 pour la charte éditoriale Lumio."
+        "titre": "3.3 — Intégration des nouveaux collaborateurs au sein de l'entreprise",
+        "body": "Structurez le parcours en phases chronologiques : pré-boarding (avant le premier jour), J1, semaine 1, mois 1, fin de période d'essai. Pour les indicateurs, ne vous limitez pas au taux de rupture : incluez au minimum 4 KPIs distincts avec leur mode de calcul. Les préconisations doivent être directement reliées aux indicateurs analysés — évitez les recommandations génériques non étayées par les données du cas."
       }
     ],
     "footer": "Ce guide est disponible à tout moment via le bouton ? en bas à gauche du desktop."
@@ -450,18 +410,18 @@ window.LUMIO_DATA = {
         "items": [
           {
             "kind": "pdf",
-            "name": "Résultats baromètre social Lumio",
+            "name": "Audit réputation marque employeur",
             "app": "pdf",
             "props": {
-              "docId": "D1"
+              "docId": "DOC-01"
             }
           },
           {
             "kind": "pdf",
-            "name": "Synthèse des avis Glassdoor",
+            "name": "Besoin urgent — Business",
             "app": "pdf",
             "props": {
-              "docId": "D2"
+              "docId": "DOC-02"
             }
           }
         ]
@@ -473,26 +433,18 @@ window.LUMIO_DATA = {
         "items": [
           {
             "kind": "pdf",
-            "name": "Charte éditoriale marque employeur",
+            "name": "Résultats enquête satisfaction collaborateurs",
             "app": "pdf",
             "props": {
-              "docId": "D3"
-            }
-          },
-          {
-            "kind": "note",
-            "name": "Cadrage du poste Chargé(e)",
-            "app": "notes",
-            "props": {
-              "docId": "D4"
+              "docId": "DOC-03"
             }
           },
           {
             "kind": "pdf",
-            "name": "Cartographie des compétences —",
+            "name": "Cartographie des compétences et",
             "app": "pdf",
             "props": {
-              "docId": "D5"
+              "docId": "DOC-04"
             }
           }
         ]
@@ -503,11 +455,19 @@ window.LUMIO_DATA = {
         "icon": "📁",
         "items": [
           {
-            "kind": "deck",
-            "name": "Analyse des départs en",
+            "kind": "mail",
+            "name": "RE: Partenariat Lumio x",
+            "app": "mail",
+            "props": {
+              "docId": "DOC-05"
+            }
+          },
+          {
+            "kind": "pdf",
+            "name": "Analyse des ruptures de",
             "app": "pdf",
             "props": {
-              "docId": "D6"
+              "docId": "DOC-06"
             }
           }
         ]
@@ -518,11 +478,11 @@ window.LUMIO_DATA = {
         "icon": "📁",
         "items": [
           {
-            "kind": "pdf",
-            "name": "Conversation privée — pression",
-            "app": "pdf",
+            "kind": "note",
+            "name": "Charte de communication marque",
+            "app": "notes",
             "props": {
-              "docId": "D8"
+              "docId": "DOC-07"
             }
           }
         ]
@@ -533,11 +493,11 @@ window.LUMIO_DATA = {
         "icon": "📁",
         "items": [
           {
-            "kind": "deck",
-            "name": "Indicateurs RH recrutement &",
+            "kind": "pdf",
+            "name": "Suivi pipeline candidats —",
             "app": "pdf",
             "props": {
-              "docId": "D7"
+              "docId": "DOC-08"
             }
           }
         ]
@@ -553,7 +513,7 @@ window.LUMIO_DATA = {
     ]
   },
   "calendar": {
-    "monthLabel": "Mars",
+    "monthLabel": "Avril",
     "todayLabel": "Jour 1 / 18",
     "countdownLabel": "AVANT ÉCHÉANCE",
     "startDay": 14,
@@ -578,7 +538,7 @@ window.LUMIO_DATA = {
     "events": {
       "14": [
         {
-          "label": "Kick-off · Opération Pulse : recruter le bon profil avant que Northgate ne signe",
+          "label": "Kick-off · Opération Pulse : recruter le talent qui sauvera le lancement européen",
           "bg": "#3a7bd5",
           "color": "#fff",
           "bold": true
@@ -596,8 +556,40 @@ window.LUMIO_DATA = {
     "footer": "<em>1 jour fictif ≈ 11 minutes réelles · ratio ×74</em>"
   },
   "trash": {
-    "title": "La corbeille est vide.",
-    "body": "Mais l'idée est bonne. La plupart des consultants commencent par jeter quelque chose."
+    "items": [
+      {
+        "name": "fiche_poste_bd_senior_v3_rejected.docx",
+        "size": "19 Ko",
+        "date": "1 avr",
+        "icon": "docx"
+      },
+      {
+        "name": "export_ats_candidats_semaine1.csv",
+        "size": "42 Ko",
+        "date": "7 avr",
+        "icon": "docx"
+      },
+      {
+        "name": "notes_onboarding_camille.vcf",
+        "size": "1 Ko",
+        "date": "13 avr",
+        "icon": "vcf",
+        "trigger": "whatsapp"
+      }
+    ],
+    "whatsapp": {
+      "contact": "Camille Ott",
+      "subtitle": "Partenariats B2B",
+      "messages": [
+        { "from": "Camille Ott",   "side": "left",  "time": "19:44", "text": "Théo, j'ai lu l'analyse ruptures PE. C'est exactement ce que je te disais depuis novembre." },
+        { "from": "Théo Marczak", "side": "right", "time": "19:48", "text": "Je sais. J'aurais dû écouter plus tôt." },
+        { "from": "Camille Ott",   "side": "left",  "time": "19:49", "text": "Le problème ce n'est pas les candidats. On recrute des bons profils. C'est l'accueil qui est cassé. Managers pas briefés, outils pas prêts, objectifs PE flous." },
+        { "from": "Théo Marczak", "side": "right", "time": "19:51", "text": "On le met dans le plan de recrutement ?" },
+        { "from": "Camille Ott",   "side": "left",  "time": "19:52", "text": "Ce n'est pas un problème de recrutement, Théo. C'est un problème de management. Si on ne règle pas l'accueil, le prochain BD Senior partira dans les 3 mois. Comme les autres." },
+        { "from": "Théo Marczak", "side": "right", "time": "19:55", "text": "Ok. Aide le consultant à comprendre ça. Sans que ça devienne un procès contre les managers." },
+        { "from": "Camille Ott",   "side": "left",  "time": "19:57", "text": "Je vais essayer. Mais il faut que {{PRENOM}} comprenne que le recrutement commence APRÈS l'offre acceptée — et là on est mauvais." }
+      ]
+    }
   },
   "slack": {
     "workspace": "Lumio Health",
@@ -619,6 +611,13 @@ window.LUMIO_DATA = {
         "color": "#134547",
         "status": "online",
         "isCommanditaire": true
+      },
+      {
+        "id": "camille",
+        "name": "Camille Ott",
+        "avatar": "CO",
+        "color": "#1b4f8a",
+        "status": "online"
       }
     ],
     "seed": {
@@ -628,60 +627,78 @@ window.LUMIO_DATA = {
           "avatar": "TM",
           "color": "#134547",
           "time": "08:47",
-          "text": "hey {{PRENOM}} — on vient de confirmer le pilote Northgate ce matin, 500 salariés testeurs, c'est énorme pour nous"
+          "text": "Bonjour {{PRENOM}} — bienvenue dans l'équipe, content que tu démarres aujourd'hui"
         },
         {
           "from": "Théo Marczak",
           "avatar": "TM",
           "color": "#134547",
-          "time": "08:51",
-          "text": "Jakob veut une équipe projet opérationnelle dans 8 semaines, le problème c'est que le poste de Chargé(e) Projets Partenariats Santé n'existe même pas encore dans notre orga — Camille et Yassine sont dispo pour t'appuyer mais c'est toi qui pilotes"
+          "time": "08:49",
+          "text": "on a deux recrutements critiques sur la table, Business Dev Senior pour les nordiques + un poste partenariats santé au travail — je t'envoie les briefs Camille dans la journée mais commence déjà à regarder ce qu'on a comme présence sur LinkedIn, spoiler : c'est pas glorieux"
         },
         {
           "from": "Théo Marczak",
           "avatar": "TM",
           "color": "#134547",
-          "time": "08:54",
-          "text": "j'ai besoin que tu me poses un processus de recrutement complet d'ici vendredi — de la fiche de poste à l'onboarding — sans qu'on brade notre culture D&I pour tenir le délai, c'est non-négociable"
+          "time": "08:52",
+          "text": "objectif concret : je veux un plan de recrutement complet sur mon bureau (enfin dans Notion) d'ici vendredi 18 avril — process, canaux, critères de sélection, et une réponse claire sur pourquoi on a 40% de ruptures de PE ces derniers mois, c'est là-dessus qu'on sera jugés"
+        }
+      ],
+      "camille": [
+        {
+          "from": "Camille Ott",
+          "avatar": "CO",
+          "color": "#1b4f8a",
+          "time": "09:31",
+          "text": "Bonjour {{PRENOM}}. Théo m'a dit que tu travaillais sur les recrutements Opération Pulse. Je gère les partenariats B2B — le poste Chargé·e Partenariats Santé au Travail, c'est pour mon équipe."
+        },
+        {
+          "from": "Camille Ott",
+          "avatar": "CO",
+          "color": "#1b4f8a",
+          "time": "09:33",
+          "text": "Je voulais te parler du profil réel qu'on cherche — au-delà de ce qui est écrit dans la fiche de poste. La fiche a été rédigée par Théo, pas par moi."
         }
       ]
     }
   },
   "slackPrompts": {
-    "commanditaire": "Tu es Théo Marczak, CEO de Lumio Health chez Lumio Health. Tu réponds à {{PRENOM}}, consultant·e externe sur la mission \"Opération Pulse : recruter le bon profil avant que Northgate ne signe\". Tu évalues sans expliquer, tu relances sans donner la réponse, tu simules la pression hiérarchique. Tu réponds en 2-3 messages courts séparés par ---SPLIT---. Pas de longs développements.",
-    "commanditaireLivrable": "Tu es Théo Marczak. Tu viens de recevoir le livrable de {{PRENOM}}. Tu réagis en 2-3 messages courts séparés par ---SPLIT---. Tu pointes ce qui te paraît juste et ce qui te paraît faible, sans expliquer comment corriger."
+    "commanditaire": "Tu es Théo Marczak, CEO, Lumio Health chez Lumio Health. Tu réponds à {{PRENOM}}, consultant·e externe sur la mission \"Opération Pulse : recruter le talent qui sauvera le lancement européen\". Tu évalues sans expliquer, tu relances sans donner la réponse, tu simules la pression hiérarchique. Tu réponds en 2-3 messages courts séparés par ---SPLIT---. Pas de longs développements.",
+    "commanditaireLivrable": "Tu es Théo Marczak. Tu viens de recevoir le livrable de {{PRENOM}}. Tu réagis en 2-3 messages courts séparés par ---SPLIT---. Tu pointes ce qui te paraît juste et ce qui te paraît faible, sans expliquer comment corriger.",
+    "camille": "Tu es Camille Ott, Responsable Partenariats B2B de Lumio Health. Le poste de Chargé·e Partenariats Santé au Travail est directement pour ton équipe. Tu parles à {{PRENOM}}, consultant·e externe en charge des recrutements Opération Pulse. Tu es directe, terrain, pragmatique. Tu penses que les fiches de poste trop corporate attirent les mauvais profils. Tu as une opinion précise sur les ruptures de période d'essai passées : l'onboarding est cassé, les managers ne sont pas briefés. Tu évalues sans expliquer, tu révèles progressivement tes vraies attentes. Tu réponds en 2-3 messages courts séparés par ---SPLIT---. Pas de longs développements.",
+    "camillelivrable": "Tu es Camille Ott. Tu viens de lire le livrable recrutement de {{PRENOM}}. Tu réagis en 2-3 messages courts séparés par ---SPLIT---. Tu vérifes si le plan de recrutement intègre l'onboarding comme condition de succès — pas seulement l'acquisition. Tu es directe sur ce qui te semble incomplet."
   },
   "pressArticles": [
     {
       "id": "a1",
       "source": "L'Usine Digitale",
       "host": "usine-digitale.fr",
-      "url": "usine-digitale.fr/recrutement-profils-hybrides-medtech-2025",
-      "author": "Margaux Thiberville",
-      "date": "11 mars 2025",
-      "headline": "Santé numérique : le recrutement de profils hybrides, nouveau casse-tête des medtechs en croissance",
-      "lede": "Entre la pénurie de talents combinant culture wearable et gestion de projets en environnement de santé, les startups françaises de la healthtech se heurtent à un paradoxe : plus elles décrochent de contrats structurants, moins elles ont le temps de recruter correctement.",
+      "url": "usine-digitale.fr/article/recrutement-medtech-europeenne-taux-rupture-periode-essai",
+      "author": "Nathalie Courbet",
+      "date": "9 avril 2025",
+      "headline": "Recrutement dans les medtechs : pourquoi 40 % des embauches s'arrêtent avant la fin de la période d'essai",
+      "lede": "Les startups de santé numérique françaises peinent à retenir leurs nouvelles recrues au-delà des premiers mois. Un phénomène qui s'aggrave à l'approche des lancements produits, quand la pression s'emballe et que les promesses du recrutement se heurtent à la réalité du terrain.",
       "illustration": "PHOTO ILLUSTRATIVE",
-      "body": "La France compte aujourd'hui plus de 850 startups actives dans la santé numérique, selon le dernier baromètre France Biotech publié en février 2025. Parmi elles, une quarantaine a franchi le cap des 100 clients B2B — un seuil souvent synonyme de première crise RH silencieuse.\n\nCar si les directions commerciales enchaînent les contrats pilotes avec des acteurs institutionnels — mutuelles, grands comptes industriels, opérateurs de prévention —, les équipes projet peinent à suivre. 'On signe des deals qui nécessitent un chef de projet santé numérique opérationnel en six à huit semaines, et ce profil n'existe tout simplement pas en volume sur le marché', confie un DRH d'une medtech parisienne, sous couvert d'anonymat.\n\nLe problème est structurel. Les formations spécialisées en gestion de projet santé numérique restent rares et récentes. Les profils capables de naviguer entre protocoles réglementaires (RGPD santé, marquage CE dispositifs médicaux) et culture produit wearable se comptent en centaines sur l'ensemble du territoire national. LinkedIn recense moins de 400 personnes mentionnant explicitement les deux compétences dans leur profil en France.\n\nFace à cette tension, certaines entreprises cèdent à la facilité : un recrutement précipité, un cahier des charges édulcoré, une promesse d'embauche signée avant même que la fiche de poste ne soit stabilisée. Les conséquences sont documentées. Selon une étude Hays publiée en janvier 2025, 34 % des recrutements effectués sous contrainte de délai contractuel dans la tech santé se soldent par un départ dans les douze mois.\n\nL'enjeu dépasse la simple performance opérationnelle. Les startups healthtech, souvent portées par des engagements forts en matière d'inclusion et de diversité, voient leurs principes mis à rude épreuve dès lors que l'urgence dicte les arbitrages. Réduire le vivier de candidats pour gagner du temps, écarter des profils atypiques faute de processus d'évaluation structuré : les raccourcis sont nombreux, et leurs effets sur la culture d'entreprise, durables.\n\n'Le recrutement sous pression est l'un des premiers vecteurs de régression D&I dans les scale-ups', souligne Priya Anand, chercheuse associée à l'EDHEC Business School et spécialiste des politiques RH en environnement de croissance rapide. Elle appelle les directions générales à sanctuariser le processus de recrutement, même — et surtout — lorsque le contrat attend.\n\nCertaines structures tentent de répondre à cette double contrainte en repensant leur marque employeur en amont de chaque phase de croissance, plutôt qu'en réaction à un besoin immédiat. L'idée : construire un vivier de candidats qualifiés et sensibilisés à la mission de l'entreprise avant que l'urgence ne s'impose. Une approche qui suppose une coordination étroite entre les équipes RH, marketing et partenariats — et une maturité organisationnelle que toutes les medtechs en phase d'accélération n'ont pas encore atteinte."
+      "body": "Selon une étude publiée en mars 2025 par le cabinet RH Talentis Consulting, près d'une startup medtech sur trois affiche un taux de rupture de période d'essai supérieur à 35 % sur les douze derniers mois. Pour les profils commerciaux seniors, ce chiffre grimpe à 42 %. Un signal d'alarme que beaucoup de dirigeants attribuent d'abord au marché, avant de regarder du côté de leurs propres pratiques.\n\n« Le problème commence dès l'offre d'emploi », estime Clara Duvivier, directrice associée chez Talentis. « On recrute vite, sous pression d'un investisseur ou d'un calendrier produit, et on survend le poste. Six semaines plus tard, le candidat découvre une réalité très différente de ce qu'on lui a décrit. » La désillusion est d'autant plus brutale que les profils ciblés — business developers expérimentés, responsables partenariats — ont le choix et n'hésitent pas à partir.\n\nLes marchés d'expansion européenne cristallisent ces tensions. Recruter un Business Developer Senior pour les pays nordiques ou le DACH suppose de trouver un profil rare, maîtrisant à la fois les codes culturels locaux, les cycles de vente B2B longs et les spécificités réglementaires du secteur santé. « Ce type de candidat reçoit en moyenne quatre sollicitations par semaine sur LinkedIn », confirme Éric Mounier, recruteur spécialisé santé numérique chez Mercuri Urval Paris. « Si votre marque employeur est inexistante ou incohérente, vous n'avez aucune chance de les décrocher. »\n\nOr la marque employeur reste le parent pauvre des medtechs françaises en phase de croissance. Selon une analyse de LinkedIn Talent Insights publiée en février 2025, 68 % des startups healthtech de moins de 200 salariés n'ont pas mis à jour leur page entreprise depuis plus d'un an. Les témoignages collaborateurs, les contenus sur la culture interne, les engagements RSE concrets : autant d'éléments qui font la différence auprès des candidats expérimentés, et qui sont systématiquement sacrifiés quand les équipes sont dans l'urgence.\n\nL'inclusion constitue un autre angle mort. Plusieurs DRH interrogés reconnaissent que leurs processus de recrutement n'ont jamais été audités sous l'angle des biais inconscients, ni adaptés aux candidats en situation de handicap. « On parle beaucoup de diversité dans les levées de fonds, beaucoup moins dans les fiches de poste ou les grilles d'entretien », observe Sophie Arnaud, consultante en recrutement inclusif chez HRize. La labellisation Diversité ou les engagements RQTH restent l'exception dans l'écosystème.\n\nFace à ces constats, quelques acteurs commencent à structurer leur approche. La tendance est à la formalisation de parcours d'intégration sur 90 jours, avec des points de suivi réguliers et un référent dédié pour les nouvelles recrues. « L'onboarding est la dernière ligne de défense contre la rupture de période d'essai », résume Clara Duvivier. « Si le candidat ne comprend pas où il va dans les trois premières semaines, vous l'avez déjà perdu. »"
     }
   ],
   "fausseUne": {
     "source": "Les Échos",
     "host": "lesechos.fr",
     "rubrique": "Économie & Entreprises",
-    "kicker": "Santé numérique",
-    "date": "14 mars 2025",
-    "headline": "La guerre des talents dans la healthtech : les startups françaises peinent à recruter les profils hybrides que réclament les mutuelles",
-    "chapeau": "À mesure que les grands acteurs de la protection sociale accélèrent leurs pilotes technologiques, les jeunes pousses de la santé numérique se heurtent à une pénurie critique de chefs de projet capables de parler à la fois le langage des wearables et celui des directions RH. Un goulot d'étranglement qui fragilise des contrats parfois chiffrés en millions d'euros avant même leur démarrage.",
-    "body": "Selon une étude publiée ce jeudi par le cabinet Talent Square, le délai moyen de recrutement d'un chargé de projets partenariats en santé numérique a atteint 14 semaines en 2024, soit trois semaines de plus qu'en 2022. Ce profil rare — à la croisée de la gestion de projet, de la culture wearable et de la relation grands comptes institutionnels — est désormais activement chassé par les mutuelles elles-mêmes, qui recrutent en interne pour piloter leurs propres expérimentations. Résultat : les startups, moins armées financièrement que les groupes de protection sociale, arrivent souvent trop tard sur un marché de l'emploi qui s'est considérablement tendu depuis la généralisation des dispositifs de prévention connectés post-Covid. 'On voit des fondateurs signer des appels d'offres sans avoir la ressource humaine pour les tenir', confie un investisseur parisien sous couvert d'anonymat. 'Le contrat devient une pression supplémentaire plutôt qu'une opportunité.' Les experts alertent également sur un risque systémique : face à l'urgence, certaines structures sacrifient leurs engagements en matière de diversité et d'inclusion pour aller vite, recrutant par réseau au détriment d'un processus structuré. Une dérive qui, à terme, expose les entreprises à des risques réputationnels croissants dans un secteur où la confiance est l'actif numéro un."
+    "kicker": "Marché du travail tech",
+    "date": "Lundi 14 avril 2025",
+    "headline": "Medtech : la guerre des talents nordiques tourne au fiasco pour les scale-ups françaises",
+    "chapeau": "En Suède, au Danemark et en Finlande, les profils spécialisés en développement commercial santé numérique se font rares et se négocient à prix d'or. Les jeunes pousses hexagonales, mal préparées et peu visibles, arrivent systématiquement trop tard. Un retard qui coûte des marchés entiers.",
+    "body": "La promesse était belle : l'Europe du Nord, eldorado de la santé connectée, ouverte aux innovations françaises. La réalité est plus âpre. Selon une étude publiée ce lundi par le cabinet Korn Ferry, le délai moyen pour recruter un Business Developer Senior sur les marchés scandinaves dépasse désormais cinq mois et demi, contre trois mois et demi en 2022. La pénurie s'explique par une concentration inédite de la demande : Philips Digital Health, Garmin Enterprise et trois scale-ups allemandes ont simultanément ouvert des bureaux régionaux à Stockholm et Copenhague depuis janvier 2025, captant l'essentiel des candidats disponibles. 'Les entreprises françaises souffrent d'un double handicap : une marque employeur quasi inexistante sur LinkedIn Nordics et des processus de recrutement perçus comme opaques et lents', analyse Ingrid Söderström, associée chez Korn Ferry Stockholm. Les chiffres internes que Les Échos ont pu consulter révèlent par ailleurs que le taux de rupture de période d'essai dans les medtech de moins de 200 salariés a bondi à 38 % en 2024, un record depuis dix ans, souvent imputable à un onboarding bâclé et à des attentes mal cadrées dès le recrutement. Pour les acteurs qui misent sur un partenariat distributeur local comme levier d'entrée sur ces marchés, l'avertissement est direct : aucun distributeur scandinave sérieux ne signera avec une équipe dont le visage commercial n'est pas encore en poste."
   }
 };
 
 window.PAC_CONFIG = {
   "bloc": "bc3",
   "titre": "Mettre en œuvre la politique de recrutement",
-  "epreuve": "Épreuve individuelle écrite - Étude de cas : recrutement et intégration; Épreuve individuelle écrite et orale - Mise en situation professionnelle : entretien de recrutement",
-  "deadline": "14 mars 2025 · 18h00",
+  "epreuve": "Évaluation 7, 8",
+  "deadline": "Lundi 14 avril 2025 · 18h00",
   "commanditaire": "Théo Marczak",
   "entreprise": "Lumio Health",
   "dispositif": "PAC",
@@ -726,197 +743,81 @@ window.PAC_CONFIG = {
   "competences": [
     {
       "code": "3.1",
-      "label": "Renforcer l'attractivité de la marque employeur",
-      "libelle": "Renforcer l'attractivité",
-      "rncp": "Renforcer l'attractivité de la marque employeur, en évaluant sa réputation et en déterminant des axes d'amélioration, en favorisant un environnement de travail serein et inclusif, non discriminatoire ou excluant, pour instaurer une culture d'entreprise qui suscite l'adhésion des nouveaux collaborateurs",
-      "placeholder": "Réalisez un diagnostic de la marque employeur Lumio Health à partir des données disponibles (Glassdoor fictif, baromètre interne, retours offboarding). Identifiez 3 points forts et 3 axes d'amélioration. Proposez des actions concrètes intégrant diversité et inclusion (labels, partenariats, politique handicap). Justifiez en quoi ces actions favorisent l'adhésion des futurs collaborateurs dans un contexte de croissance rapide.",
-      "min": 220,
+      "label": "Développement et promotion d'une marque employeur positive",
+      "libelle": "Développement et",
+      "rncp": "Renforcer l'attractivité de la marque employeur, en évaluant sa réputation et en déterminant des axes d'amélioration, en favorisant un environnement de travail serein et inclusif, non discriminatoire ou excluant, pour instaurer une culture d'entreprise qui suscite l'adhésion des nouveaux collaborateurs. Promouvoir la marque employeur en interne et en externe, en utilisant des outils de marketing RH, notamment numériques, afin d'attirer et de fidéliser les talents.",
+      "placeholder": "À partir des données de l'audit de réputation fourni en pièce jointe (Document 1) et des retours internes collectés par Yassine Morel (Document 3), analysez les forces et faiblesses de la marque employeur Lumio Health. Définissez ensuite un plan d'action structuré : objectifs mesurables (labels, partenariats, indicateurs de satisfaction), propositions concrètes en matière de diversité et d'inclusion, et dispositifs de communication interne/externe mobilisant les outils numériques du marketing RH (site carrière, LinkedIn, programme d'ambassadeurs, etc.).",
+      "min": 300,
       "motsCles": [
-        "réputation employeur",
-        "diagnostic",
-        "inclusion",
-        "diversité",
-        "culture d'entreprise",
-        "label",
-        "points forts",
+        "marque employeur",
+        "audit de réputation",
         "axes d'amélioration",
-        "QVCT",
-        "adhésion"
-      ],
-      "conseil": "Appuyez-vous sur le document D1 (baromètre interne) et D2 (avis Glassdoor fictif) pour étayer votre analyse. Évitez les généralités : chaque proposition doit être reliée à un point faible identifié chez Lumio Health."
-    },
-    {
-      "code": "3.2",
-      "label": "Promouvoir la marque employeur",
-      "libelle": "Promouvoir la",
-      "rncp": "Promouvoir la marque employeur en interne et en externe, en utilisant des outils de marketing RH, notamment numériques, afin d'attirer et de fidéliser les talents",
-      "placeholder": "Construisez un plan de promotion de la marque employeur Lumio Health pour ce recrutement. Détaillez les actions internes (communication auprès des salariés, programme d'ambassadeurs) et externes (site carrière, LinkedIn, réseaux spécialisés medtech). Précisez les messages clés, les formats (vidéo, témoignages, post LinkedIn), les responsables et le calendrier. Montrez comment ces actions s'inscrivent dans la stratégie marketing globale portée par Sonia Ferracci.",
-      "min": 180,
-      "motsCles": [
+        "diversité",
+        "inclusion",
+        "culture d'entreprise",
         "marketing RH",
+        "outils numériques",
         "ambassadeurs",
         "site carrière",
         "réseaux sociaux",
-        "LinkedIn",
-        "communication interne",
-        "attractivité",
-        "numérique",
-        "fidélisation",
-        "message clé"
+        "fidélisation"
       ],
-      "conseil": "Coordonnez-vous avec Yassine Morel (Content) pour la ligne éditoriale. Le document D3 (brief Sonia Ferracci) précise les contraintes de ton et de charte graphique à respecter."
+      "conseil": "Structurez votre réponse en trois temps : diagnostic (forces/faiblesses), plan d'action avec objectifs SMART, puis dispositifs de promotion. Citez au moins deux outils numériques concrets et reliez chaque action à un indicateur de mesure. Ne pas confondre communication interne (collaborateurs existants) et communication externe (candidats potentiels)."
+    },
+    {
+      "code": "3.2",
+      "label": "Recrutement des nouveaux collaborateurs au sein de l'entreprise",
+      "libelle": "Recrutement des",
+      "rncp": "Conduire le processus de recrutement en lien avec la gouvernance et les opérationnels de l'entreprise, en définissant un parcours de recrutement cohérent avec la marque employeur, en favorisant l'inclusion et en respectant les obligations légales (diversité, handicap, traitement des données), pour mettre en œuvre la stratégie de recherche de talents, tant en interne qu'en externe. Évaluer les besoins en compétences et en recrutement des différents services, en s'appuyant sur les données issues de la GEPP, pour identifier les recrutements prioritaires à mettre en œuvre. Établir la fiche de poste avec le manager opérationnel en tenant compte des contraintes et des opportunités du marché de l'emploi, afin d'assurer des recrutements pertinents. Rechercher des candidats en utilisant des outils de sourcing, une méthode de recrutement et des supports de diffusion de l'offre préalablement rédigée en adéquation avec la marque employeur, afin d'attirer les profils visés et les compétences recherchées. Conduire les entretiens de recrutement, en s'appuyant sur une trame adaptée au profil recherché, au poste à pourvoir et à la dimension interculturelle, en adaptant le cas échéant les conditions de l'entretien à une situation de handicap, afin de participer à la sélection d'un candidat dans une démarche de diversité et d'inclusion.",
+      "placeholder": "En vous appuyant sur la demande de recrutement transmise par Camille Ott (Document 2) et sur les données GEPP synthétisées dans le Document 4, construisez le processus de recrutement complet pour le poste de Business Developer Senior marchés nordiques. Votre réponse devra inclure : (1) la planification des étapes et des parties prenantes, (2) la fiche de poste complète (intitulé, missions, compétences, conditions, rémunération, éléments QVCT/handicap, écriture inclusive), (3) la stratégie de sourcing multi-canal justifiée, (4) l'annonce rédigée conforme aux obligations légales, et (5) la grille d'entretien structurée par thématiques intégrant la dimension interculturelle.",
+      "min": 500,
+      "motsCles": [
+        "processus de recrutement",
+        "fiche de poste",
+        "GEPP",
+        "sourcing",
+        "non-discrimination",
+        "obligations légales",
+        "grille d'entretien",
+        "inclusion",
+        "handicap",
+        "interculturel",
+        "parties prenantes",
+        "marque employeur",
+        "annonce",
+        "écriture inclusive",
+        "RGPD"
+      ],
+      "conseil": "La fiche de poste doit être rédigée en écriture inclusive et mentionner explicitement les aménagements possibles pour une situation de handicap. Pour la grille d'entretien, distinguez les thématiques (motivation, compétences techniques, soft skills, dimension interculturelle nordique) et précisez la technique d'entretien retenue en la justifiant par rapport au niveau de responsabilités du poste. Pensez à intégrer les contraintes légales RGPD pour le traitement des candidatures."
     },
     {
       "code": "3.3",
-      "label": "Conduire le processus de recrutement",
-      "libelle": "Conduire le",
-      "rncp": "Conduire le processus de recrutement en lien avec la gouvernance et les opérationnels de l'entreprise, en définissant un parcours de recrutement cohérent avec la marque employeur, en favorisant l'inclusion et en respectant les obligations légales (diversité, handicap, traitement des données), en favorisant l'inclusion et en respectant les obligations légales (diversité, handicap, traitement des données), pour mettre en œuvre la stratégie de recherche de talents, tant en interne qu'en externe",
-      "placeholder": "Décrivez le parcours de recrutement complet pour le poste de Chargé(e) de Projets Partenariats Santé : étapes, jalons, parties prenantes (Théo, Camille, manager direct), outils RGPD, délais. Précisez les obligations légales applicables (non-discrimination, traitement des données candidats, RQTH). Montrez comment ce parcours est cohérent avec la marque employeur Lumio Health et la convention collective de la branche numérique.",
-      "min": 200,
-      "motsCles": [
-        "parcours de recrutement",
-        "jalons",
-        "parties prenantes",
-        "RGPD",
-        "non-discrimination",
-        "RQTH",
-        "convention collective",
-        "gouvernance",
-        "inclusion",
-        "obligations légales"
-      ],
-      "conseil": "Listez explicitement les rôles de chaque partie prenante à chaque étape. Le document D4 (organigramme Lumio Health) vous aide à identifier les décideurs. N'oubliez pas la validation finale par Théo Marczak avant toute offre."
-    },
-    {
-      "code": "3.4",
-      "label": "Évaluer les besoins en compétences et en recrutement",
-      "libelle": "Évaluer les",
-      "rncp": "Évaluer les besoins en compétences et en recrutement des différents services, en s'appuyant sur les données issues de la GEPP, pour identifier les recrutements prioritaires à mettre en œuvre",
-      "placeholder": "À partir des données GEPP disponibles et du contexte Northgate, justifiez pourquoi ce recrutement est prioritaire. Décrivez votre méthode d'analyse des besoins (entretiens avec Camille Ott, observation de l'activité B2B, cartographie des compétences manquantes). Identifiez précisément les compétences critiques absentes de l'équipe actuelle et les motifs objectifs du recrutement.",
-      "min": 160,
-      "motsCles": [
-        "GEPP",
-        "analyse des besoins",
-        "compétences manquantes",
-        "priorité de recrutement",
-        "cartographie",
-        "entretien de cadrage",
-        "motifs",
-        "objectifs",
-        "gap compétences",
-        "données RH"
-      ],
-      "conseil": "Appuyez-vous sur le document D5 (extrait GEPP Lumio Health) pour objectiver votre analyse. Évitez de conclure uniquement sur l'urgence contractuelle : montrez que le besoin est structurel."
-    },
-    {
-      "code": "3.5",
-      "label": "Établir la fiche de poste",
-      "libelle": "Établir la",
-      "rncp": "Établir la fiche de poste avec le manager opérationnel en tenant compte des contraintes et des opportunités du marché de l'emploi, afin d'assurer des recrutements pertinents",
-      "placeholder": "Rédigez la fiche de poste complète du Chargé(e) de Projets Partenariats Santé, construite avec Camille Ott. Incluez : intitulé, missions principales, compétences requises, rattachement hiérarchique, volume horaire, rémunération indicative, éléments SST, compensation handicap éventuelle. Rédigez en écriture inclusive, limitez le poids du diplôme et mettez l'accent sur les compétences interculturelles adaptées à un contexte medtech international.",
-      "min": 180,
-      "motsCles": [
-        "fiche de poste",
-        "missions",
-        "compétences requises",
-        "rattachement hiérarchique",
-        "écriture inclusive",
-        "rémunération",
-        "SST",
-        "handicap",
-        "marché de l'emploi",
-        "compétences interculturelles"
-      ],
-      "conseil": "La fiche de poste doit être co-construite avec Camille Ott (document D4). Soignez la rubrique inclusion : une compensation handicap générique n'est pas suffisante — précisez les aménagements envisageables pour ce poste."
-    },
-    {
-      "code": "3.6",
-      "label": "Rechercher des candidats",
-      "libelle": "Rechercher des",
-      "rncp": "Rechercher des candidats en utilisant des outils de sourcing, une méthode de recrutement et des supports de diffusion de l'offre préalablement rédigée en adéquation avec la marque employeur, afin d'attirer les profils visés et les compétences recherchées",
-      "placeholder": "Rédigez l'annonce de recrutement pour le poste, puis détaillez votre stratégie de sourcing multicanale : job boards généralistes et spécialisés medtech, LinkedIn Recruiter, réseau universitaire santé numérique, RQTH (AGEFIPH, Handiforum), cooptation interne, événements (HealthTech Paris, Vivatech). Justifiez le choix de chaque canal en fonction du profil cible. Montrez que l'annonce respecte les normes légales et valorise la RSE de Lumio.",
-      "min": 200,
-      "motsCles": [
-        "sourcing",
-        "annonce",
-        "job board",
-        "LinkedIn",
-        "non-discrimination",
-        "AGEFIPH",
-        "cooptation",
-        "marque employeur",
-        "RSE",
-        "canaux de diffusion"
-      ],
-      "conseil": "L'annonce doit être rédigée dans le respect de la loi Égalité professionnelle. Évitez les formulations genrées ou les exigences de diplôme non justifiées. Référencez-vous au document D3 pour la charte éditoriale Lumio."
-    },
-    {
-      "code": "3.7",
-      "label": "Conduire les entretiens de recrutement",
-      "libelle": "Conduire les",
-      "rncp": "Conduire les entretiens de recrutement, en s'appuyant sur une trame adaptée au profil recherché, au poste à pourvoir et à la dimension interculturelle, en adaptant le cas échéant les conditions de l'entretien à une situation de handicap, afin de participer à la sélection d'un candidat dans une démarche de diversité et d'inclusion",
-      "placeholder": "Préparez la grille d'entretien semi-directif pour ce poste (thématiques, questions comportementales STAR, questions d'évaluation interculturelle). Précisez les aménagements prévus pour un candidat en situation de handicap. Lors de la mise en situation orale, conduisez l'entretien face au jury en respectant la trame, en garantissant le principe de non-discrimination et en identifiant clairement les points forts et les axes de vigilance du candidat.",
-      "min": 220,
-      "motsCles": [
-        "grille d'entretien",
-        "semi-directif",
-        "STAR",
-        "non-discrimination",
-        "dimension interculturelle",
-        "aménagement handicap",
-        "points forts",
-        "points faibles",
-        "compétences comportementales",
-        "équité"
-      ],
-      "conseil": "La grille doit comporter au minimum 4 thématiques distinctes. Anticipez 2 questions susceptibles de générer des biais (ex. mobilité, situation familiale) et démontrez que vous les avez écartées. En oral, gérez le silence et les relances : ce sont des indicateurs observés par le jury."
-    },
-    {
-      "code": "3.8",
-      "label": "Concevoir un processus d'onboarding",
-      "libelle": "Concevoir un",
-      "rncp": "Concevoir un processus d'onboarding des nouveaux collaborateurs en lien avec les managers, en définissant et en suivant les étapes du parcours d'intégration afin d'assurer une prise de poste optimale et un suivi efficace de l'intégration",
-      "placeholder": "Décrivez le parcours d'onboarding du futur Chargé(e) de Projets sur ses 3 premiers mois. Planifiez les étapes (J-7, J1, semaine 1, mois 1, mois 3) : documentation d'accueil, réunions d'équipe, présentation à Jakob Rein/Northgate, mentorat, rapport d'étonnement, point d'intégration avec Camille Ott. Intégrez les aménagements possibles en cas de handicap. Identifiez les parties prenantes responsables de chaque étape.",
-      "min": 180,
+      "label": "Intégration des nouveaux collaborateurs au sein de l'entreprise",
+      "libelle": "Intégration des",
+      "rncp": "Concevoir un processus d'onboarding des nouveaux collaborateurs en lien avec les managers, en définissant et en suivant les étapes du parcours d'intégration afin d'assurer une prise de poste optimale et un suivi efficace de l'intégration. Évaluer les processus de recrutement et d'intégration en analysant des indicateurs de suivi et de performance afin de repérer les freins et les leviers d'optimisation.",
+      "placeholder": "Au regard du taux de rupture de période d'essai de 40 % constaté chez Lumio Health (Document 6), concevez un parcours d'onboarding structuré pour le futur Business Developer Senior. Détaillez les modalités adaptées au poste (documentation d'accueil, mentorat, rapport d'étonnement, aménagement éventuel, transmission de la culture Lumio), planifiez les étapes et identifiez les parties prenantes. Proposez ensuite un tableau de bord des indicateurs de performance du recrutement et de l'intégration, puis formulez des préconisations d'amélioration argumentées pour réduire le taux de rupture.",
+      "min": 280,
       "motsCles": [
         "onboarding",
         "parcours d'intégration",
-        "jalons",
+        "prise de poste",
         "mentorat",
         "rapport d'étonnement",
-        "documentation d'accueil",
-        "aménagement",
-        "parties prenantes",
-        "prise de poste",
-        "suivi"
-      ],
-      "conseil": "Un onboarding réussi dépasse le premier jour. Montrez que vous avez prévu des points de suivi formalisés à J+30 et J+90. Le document D6 (retours offboarding) révèle que les départs pendant la période d'essai sont souvent liés à un déficit de transmission culturelle — intégrez cela dans votre réponse."
-    },
-    {
-      "code": "3.9",
-      "label": "Évaluer les processus de recrutement et d'intégration",
-      "libelle": "Évaluer les",
-      "rncp": "Évaluer les processus de recrutement et d'intégration en analysant des indicateurs de suivi et de performance afin de repérer les freins et les leviers d'optimisation",
-      "placeholder": "Proposez un tableau de bord RH pour évaluer l'efficacité du recrutement et de l'intégration chez Lumio Health. Sélectionnez 6 indicateurs pertinents (taux d'acceptation des offres, délai moyen de recrutement, taux de rupture en période d'essai, taux d'absentéisme à 6 mois, score rapport d'étonnement, coût par recrutement). Analysez les données fictives disponibles et formulez des préconisations d'amélioration argumentées.",
-      "min": 160,
-      "motsCles": [
-        "indicateurs",
-        "tableau de bord",
+        "indicateurs de performance",
         "taux de rupture",
-        "délai de recrutement",
+        "période d'essai",
         "absentéisme",
-        "coût par recrutement",
+        "parties prenantes",
         "préconisations",
-        "optimisation",
-        "performance RH",
-        "leviers"
+        "culture d'entreprise",
+        "tableau de bord"
       ],
-      "conseil": "Ne vous contentez pas de lister les indicateurs : interprétez les chiffres du document D7 (dashboard RH fictif) et proposez des actions correctives spécifiques. Une préconisation sans argumentation chiffrée sera jugée insuffisante par le jury."
+      "conseil": "Structurez le parcours en phases chronologiques : pré-boarding (avant le premier jour), J1, semaine 1, mois 1, fin de période d'essai. Pour les indicateurs, ne vous limitez pas au taux de rupture : incluez au minimum 4 KPIs distincts avec leur mode de calcul. Les préconisations doivent être directement reliées aux indicateurs analysés — évitez les recommandations génériques non étayées par les données du cas."
     }
   ],
   "gabarits": {},
   "questionsPositionnement": [],
-  "juryPrompt": "Tu es le jury certifiant du bloc bc3 (Manager des Ressources Humaines).\nContexte : Opération Pulse : recruter le bon profil avant que Northgate ne signe · 14 mars 2025.\nTu évalues une production étudiante aux critères RNCP stricts. Sois exigeant mais juste.\nCritères éliminatoires :\n- Absence de diagnostic structuré de la marque employeur (points forts / axes d'amélioration distincts) rendant la compétence 3.1 non évaluable\n- Fiche de poste incomplète : omission d'au moins deux éléments obligatoires (rattachement hiérarchique, volume horaire, rémunération, SST, compensation handicap) ou absence totale d'écriture inclusive\n- Grille d'entretien ne comportant pas de thématiques distinctes ou contenant des questions discriminatoires non corrigées (origine, situation familiale, état de santé non lié au poste)\n- Rôles et responsabilités des parties prenantes (CEO, manager opérationnel, RH, futurs collaborateurs) absents ou confondus dans la description du processus de recrutement (compétence 3.3)\n- Absence d'indicateurs de performance chiffrés ou interprétés pour l'évaluation des processus de recrutement et d'intégration (compétence 3.9) — liste non commentée considérée insuffisante\n- Non-respect des obligations légales : aucune mention du RGPD appliqué aux données candidats, de la non-discrimination ou du cadre légal RQTH dans l'ensemble du dossier\n- Stratégie de sourcing mono-canal ou annonce comportant des critères de sélection non justifiés au regard des besoins du poste\n\nRéponds EXACTEMENT dans ce format :\n### 3.1 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.2 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.3 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.4 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.5 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.6 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.7 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.8 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.9 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n## Niveau global\n**[Non conforme / Partiellement conforme / Conforme / Conforme avec distinction]**\n\n## Question de jury\nUne question dérangeante que tu poserais à l'oral.",
+  "juryPrompt": "Tu es le jury certifiant du bloc bc3 (Chargé de développement des ressources humaines).\nContexte : Opération Pulse : recruter le talent qui sauvera le lancement européen · Lundi 14 avril 2025.\nTu évalues une production étudiante aux critères RNCP stricts. Sois exigeant mais juste.\nCritères éliminatoires :\n- L'absence de fiche de poste complète (avec au minimum : intitulé, missions, compétences requises, rémunération, volume horaire, rattachement hiérarchique et mention des aménagements handicap) est éliminatoire.\n- L'absence d'identification et de justification des rôles et responsabilités de chaque partie prenante dans le processus de recrutement (CEO, manager opérationnel, chargé RH, futurs collaborateurs) est éliminatoire.\n- L'absence d'indicateurs d'impact chiffrés ou mesurables pour évaluer la performance du recrutement et de l'intégration (a minima 4 KPIs distincts avec mode de calcul) est éliminatoire.\n- Toute annonce ou grille d'entretien comportant un critère discriminatoire prohibé par le Code du travail (âge, origine, sexe, état de santé non lié aux exigences du poste, etc.) est éliminatoire.\n- L'absence totale de référence aux obligations légales applicables au recrutement (non-discrimination, RGPD, accessibilité handicap, convention collective) est éliminatoire.\n- Une analyse de la marque employeur non étayée par les données du cas (audit, retours internes) et sans objectifs concrets mesurables est éliminatoire.\n- L'absence de parcours d'onboarding structuré avec des étapes planifiées et des parties prenantes identifiées est éliminatoire.\n\nRéponds EXACTEMENT dans ce format :\n### 3.1 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.2 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.3 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n## Niveau global\n**[Non conforme / Partiellement conforme / Conforme / Conforme avec distinction]**\n\n## Question de jury\nUne question dérangeante que tu poserais à l'oral.",
   "livrableMinMots": 520,
   "noteReflexiveMinMots": 100
 };
