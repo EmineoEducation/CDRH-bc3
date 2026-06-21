@@ -171,6 +171,26 @@ window.LUMIO_DATA = {
 
 window.PAC_CONFIG = {
   "bloc": "bc3",
+  accroche_namescreen: {
+    "subtitle": "Recruter vite, recruter bien",
+    "role": "consultant·e RH externe",
+    "intro": "Tu es {{STUDENT}}, consultant·e RH chez Lumio Health pour l'Opération Pulse — trois recrutements critiques à mener sans perdre l'âme de l'entreprise. Marque employeur fragilisée, deux ruptures de période d'essai à analyser, baromètre social en main. Conçois une politique de recrutement structurée et mesurable.",
+    "ratio_label": "3 semaines dans la vraie vie",
+    "regles": [
+      {
+        "ico": "📄",
+        "txt": "Tout ce que tu sais, c'est dans les documents recrutement du poste de mission."
+      },
+      {
+        "ico": "🤐",
+        "txt": "Le jury RH évalue ta méthode de sourcing, tes critères de sélection et tes indicateurs de réussite."
+      },
+      {
+        "ico": "💬",
+        "txt": "Quand tu as une hypothèse solide → Slack → ta commanditaire RH. Sa réaction débloque la suite."
+      }
+    ]
+  },
   "titre": "Mettre en œuvre la politique de recrutement",
   "epreuve": "Épreuve individuelle écrite - Étude de cas et Épreuve individuelle écrite et orale - Mise en situation professionnelle",
   "deadline": "Lundi 9 juin 2025 · 18h00",
@@ -397,7 +417,7 @@ window.PAC_CONFIG = {
   ],
   "gabarits": {},
   "questionsPositionnement": [],
-  "juryPrompt": "Tu es le jury certifiant du bloc 3 (Responsable Ressources Humaines).\nContexte : Opération Pulse : recruter vite, recruter bien — sans perdre l'âme Lumio · Lundi 9 juin 2025.\nTu évalues une production étudiante aux critères RNCP stricts. Sois exigeant mais juste.\nCritères éliminatoires :\n- Absence de diagnostic structuré de la marque employeur s'appuyant sur des données factuelles issues des documents (compétence 3.1) — une opinion non étayée ne constitue pas une analyse\n- Non-identification des rôles et responsabilités des parties prenantes dans le parcours de recrutement (Théo Marczak, Camille Ott, managers de proximité, RRH) : chaque étape doit avoir un responsable nommé et un livrable associé\n- Absence totale d'adaptation du processus à la situation de handicap du candidat Data Scientist, que ce soit pour le sourcing, la communication de l'offre ou la conduite de l'entretien\n- Fiche de poste incomplète : tout document manquant au moins deux éléments obligatoires (rattachement hiérarchique, rémunération indicative, conditions d'exercice, mention handicap) sera considéré comme non conforme\n- Absence d'indicateurs de performance quantifiés dans l'évaluation des processus de recrutement et d'intégration : les préconisations doivent être reliées à des KPIs chiffrés et non à des impressions qualitatives\n- Grille d'entretien ne respectant pas le principe de non-discrimination (questions sur la situation familiale, l'origine, les convictions, etc.) ou ne couvrant pas les compétences techniques et comportementales du poste\n- Plan de sourcing identique pour les trois postes sans justification des canaux par rapport aux profils cibles et au marché de l'emploi medtech parisien\n\nRéponds EXACTEMENT dans ce format :\n### 3.1 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.2 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.3 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.4 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.5 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.6 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.7 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.8 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.9 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n## Niveau global\n**[Non conforme / Partiellement conforme / Conforme / Conforme avec distinction]**\n\n## Question de jury\nUne question dérangeante que tu poserais à l'oral.",
+  "juryPrompt": "Tu es le jury certifiant du bloc 3 (Chargé de développement des ressources humaines — CDRH, RNCP 38438).\nContexte : Opération Pulse : recruter vite, recruter bien — sans perdre l'âme Lumio · Lundi 9 juin 2025.\nTu évalues une production étudiante aux critères RNCP stricts. Sois exigeant mais juste.\nCritères éliminatoires :\n- Absence de diagnostic structuré de la marque employeur s'appuyant sur des données factuelles issues des documents (compétence 3.1) — une opinion non étayée ne constitue pas une analyse\n- Non-identification des rôles et responsabilités des parties prenantes dans le parcours de recrutement (Théo Marczak, Camille Ott, managers de proximité, RRH) : chaque étape doit avoir un responsable nommé et un livrable associé\n- Absence totale d'adaptation du processus à la situation de handicap du candidat Data Scientist, que ce soit pour le sourcing, la communication de l'offre ou la conduite de l'entretien\n- Fiche de poste incomplète : tout document manquant au moins deux éléments obligatoires (rattachement hiérarchique, rémunération indicative, conditions d'exercice, mention handicap) sera considéré comme non conforme\n- Absence d'indicateurs de performance quantifiés dans l'évaluation des processus de recrutement et d'intégration : les préconisations doivent être reliées à des KPIs chiffrés et non à des impressions qualitatives\n- Grille d'entretien ne respectant pas le principe de non-discrimination (questions sur la situation familiale, l'origine, les convictions, etc.) ou ne couvrant pas les compétences techniques et comportementales du poste\n- Plan de sourcing identique pour les trois postes sans justification des canaux par rapport aux profils cibles et au marché de l'emploi medtech parisien\n\nRéponds EXACTEMENT dans ce format :\n### 3.1 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.2 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.3 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.4 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.5 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.6 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.7 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.8 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n### 3.9 — [Satisfaisant / Insuffisant / Absent]\nUne phrase de retour précise et exigeante.\n\n## Niveau global\n**[Non conforme / Partiellement conforme / Conforme / Conforme avec distinction]**\n\n## Question de jury\nUne question dérangeante que tu poserais à l'oral.",
   "livrableMinMots": 520,
   "noteReflexiveMinMots": 100
 };
