@@ -166,7 +166,36 @@ window.LUMIO_DATA = {
         "channel": "DM"
       }
     ]
-  }
+  },
+  "voiceMemos": [
+    {
+      "title": "Trois postes critiques — le marché est tendu",
+      "author": "Isabelle Kwan",
+      "role": "Directrice des Ressources Humaines",
+      "date": "5 mars 2025",
+      "context": "mémo dicté après revue des candidatures",
+      "durationSec": 48,
+      "transcript": "On a huit semaines pour pourvoir trois postes : un Responsable Partenariats B2B en renfort de Camille, un Data Scientist Santé, et un Chargé de Communication RH et Marque Employeur. Le premier profil, on a douze candidatures dont trois correctes. Le Data Scientist, deux candidatures seulement — le marché est asséché, les medtechs se battent pour les mêmes profils. Et pour le poste Marque Employeur, on n'a même pas encore rédigé la fiche de poste. Pendant ce temps, deux départs en période d'essai le trimestre dernier ont laissé des traces. Il faut revoir notre process de bout en bout."
+    },
+    {
+      "title": "Glassdoor — notre image employeur se dégrade",
+      "author": "Théo Marczak",
+      "role": "CEO Lumio Health",
+      "date": "8 mars 2025",
+      "context": "mémo dicté après découverte des avis en ligne",
+      "durationSec": 42,
+      "transcript": "J'ai regardé nos avis Glassdoor ce matin. On est passé de 4,2 à 3,4 en six mois. Les commentaires récents parlent de management absent, de promesses non tenues, et de charge de travail insoutenable. Un avis mentionne explicitement les départs en période d'essai comme un signal d'alarme. Les candidats lisent ça avant de postuler — ça explique en partie pourquoi on a si peu de candidatures pour le poste Data Scientist. On ne peut pas recruter en force sans réparer notre image employeur d'abord. Ou au minimum en parallèle."
+    },
+    {
+      "title": "Profil B2B — ce que je cherche vraiment",
+      "author": "Camille Ott",
+      "role": "Responsable partenariats B2B",
+      "date": "10 mars 2025",
+      "context": "mémo dicté pour transmission RH",
+      "durationSec": 40,
+      "transcript": "Pour le poste en renfort B2B, je ne cherche pas un commercial classique. J'ai besoin de quelqu'un qui comprend les cycles de vente longs en santé, qui sait parler à un DSI et à un DRH dans la même journée, et qui est à l'aise avec la dimension réglementaire. L'idéal, c'est un profil qui a déjà vendu du SaaS B2B dans le secteur santé ou assurance. Le problème, c'est que ce profil existe peu en France et que les rares qui correspondent sont déjà très bien payés. Il faut qu'on soit réalistes sur le package salarial si on veut attirer quelqu'un de solide."
+    }
+  ]
 };
 
 window.PAC_CONFIG = {
