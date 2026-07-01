@@ -196,6 +196,30 @@ window.LUMIO_DATA = {
       "transcript": "Pour le poste en renfort B2B, je ne cherche pas un commercial classique. J'ai besoin de quelqu'un qui comprend les cycles de vente longs en santé, qui sait parler à un DSI et à un DRH dans la même journée, et qui est à l'aise avec la dimension réglementaire. L'idéal, c'est un profil qui a déjà vendu du SaaS B2B dans le secteur santé ou assurance. Le problème, c'est que ce profil existe peu en France et que les rares qui correspondent sont déjà très bien payés. Il faut qu'on soit réalistes sur le package salarial si on veut attirer quelqu'un de solide."
     }
   ]
+,
+  "finder": {
+    "folders": {
+      "guide": {
+        "title": "Guide de mission",
+        "sidebar": "⌘ Guide",
+        "icon": "📕",
+        "items": [
+          { "kind": "mail", "name": "Brief de mission", "app": "mail", "props": { "openId": "brief" } }
+        ]
+      },
+      "espace": {
+        "title": "Espace de travail",
+        "sidebar": "Espace de travail",
+        "icon": "📁",
+        "items": [
+          { "kind": "mail", "name": "Boîte mail", "app": "mail", "props": {} },
+          { "kind": "note", "name": "Notes", "app": "notes", "props": {} },
+          { "kind": "audio", "name": "Mémos vocaux", "app": "voice", "props": {} }
+        ]
+      }
+    },
+    "order": ["guide", "espace"]
+  }
 };
 
 window.PAC_CONFIG = {
