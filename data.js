@@ -476,3 +476,676 @@ window.PAC_CONFIG = {
 };
 // Alias de compatibilité (les apps existantes lisent encore PASS_CONFIG)
 window.PASS_CONFIG = window.PAC_CONFIG;
+
+
+// === [Chantier PDF+Browser] dossiers/guide/portraits — 02/07/2026 ===
+// Restructuration de D.documents[]/D.deckBoard/D.yassineVeille (déjà écrits) en
+// D.dossiers[]/D.guide pour app-pdf.jsx. Ajout D.portraits[] (5 personnages
+// universels, fichiers déjà déployés dans /portraits/) + dossier Finder dédié.
+// Aucun contenu narratif nouveau : uniquement restructuration + câblage.
+(function() {
+  var D = window.LUMIO_DATA;
+  if (!D) return;
+  D.dossiers = [
+  {
+    "id": "DOC-01",
+    "title": "URGENT — Lancement Opération Pulse : 3 recrutements critiques avant le 1er août",
+    "tab": "URGENT — Lancement Opération …",
+    "accent": "#1b3a6b",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Théo Marczak — CEO Lumio Health",
+        "title": "URGENT — Lancement Opération Pulse : 3 recrutements critiques avant le 1er août",
+        "byline": "email · Acte 1",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "{{PRENOM}},"
+          },
+          {
+            "type": "p",
+            "text": "Suite à la signature du contrat Northgate et à l'identification des besoins en compétences pour 2025, je vous confie la mission de recrutement suivante."
+          },
+          {
+            "type": "h3",
+            "text": "POSTES À POURVOIR :"
+          },
+          {
+            "type": "h3",
+            "text": "1. RESPONSABLE PARTENARIATS B2B (remplacement + renfort Camille Ott)"
+          },
+          {
+            "type": "p",
+            "text": "Deadline impérative : opérationnel·le avant le 1er août 2025\n⚠ Clause contractuelle Northgate : pénalité de 50 000 € si le poste n'est pas pourvu à cette date (délai de grâce 30 jours)\nProfil : 3-5 ans expérience partenariats B2B, secteur santé ou SaaS, anglais courant (réunions Northgate en anglais)"
+          },
+          {
+            "type": "h3",
+            "text": "2. DATA SCIENTIST SANTÉ"
+          },
+          {
+            "type": "p",
+            "text": "Délai : avant le 15 septembre (certification MDR en cours)\nProfil : expertise ML appliqué à la biométrie, Python/R, idéalement connaissance des réglementations données de santé\nNote : un candidat excellent a postulé — Maxime Lenoir, malentendant. Son dossier est en pièce jointe. Nous devons adapter notre processus."
+          },
+          {
+            "type": "h3",
+            "text": "3. GROWTH MANAGER (lancement B2C Sonia)"
+          },
+          {
+            "type": "p",
+            "text": "Délai : avant le 15 octobre\nProfil : expérience acquisition digitale grand public, maîtrise SEA/social ads, idéalement secteur santé ou consumer tech"
+          },
+          {
+            "type": "h3",
+            "text": "CONTEXTE GEPP SIMPLIFIÉ :"
+          },
+          {
+            "type": "p",
+            "text": "Après analyse des entretiens annuels 2024, 3 domaines de compétences sont en tension : réglementation dispositifs médicaux (MDR), négociation B2B internationale, acquisition digitale B2C. Ces 3 postes couvrent les lacunes identifiées."
+          },
+          {
+            "type": "p",
+            "text": "ATTENTION : nous avons eu 2 ruptures de période d'essai ce trimestre (coût total 34 000 € selon CFO). Je veux des fiches de poste honnêtes, des entretiens structurés et un plan d'intégration formalisé pour les 3 postes. Aucune promesse que nous ne pouvons pas tenir."
+          },
+          {
+            "type": "p",
+            "text": "— Théo Marczak"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-02",
+    "title": "Résultats baromètre social & marque employeur — Synthèse exécutive",
+    "tab": "Résultats baromètre social & …",
+    "accent": "#c4420f",
+    "warning": true,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Baromètre interne RH Lumio Health — Vague 3, mai 2025",
+        "title": "Résultats baromètre social & marque employeur — Synthèse exécutive",
+        "byline": "rapport · Acte 1",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "AUDIT MARQUE EMPLOYEUR — LUMIO HEALTH"
+          },
+          {
+            "type": "p",
+            "text": "Mars 2025 · Sources : enquête interne (n=38), avis Glassdoor (n=6), LinkedIn analytics, entretiens de départ"
+          },
+          {
+            "type": "h3",
+            "text": "SCORES GLOBAUX :"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Note d'engagement collaborateur : 6,2/10 (benchmark secteur digital : 7,4)",
+              "eNPS (Employee Net Promoter Score) : -12 (positif dès +10 selon standard)",
+              "Score diversité & inclusion : 5,8/10"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "POINTS FORTS IDENTIFIÉS :"
+          },
+          {
+            "type": "p",
+            "text": "✓ Innovation produit perçue comme forte et motivante (89 % des répondants)\n✓ Flexibilité télétravail appréciée (76 %)\n✓ Équipe jeune, dynamique, compétente (72 %)"
+          },
+          {
+            "type": "h3",
+            "text": "POINTS FAIBLES IDENTIFIÉS :"
+          },
+          {
+            "type": "p",
+            "text": "✗ Charge de travail jugée excessive : 61 % se disent souvent ou très souvent stressés\n✗ Manque de feedback managérial structuré : 68 % déclarent ne pas avoir d'entretien régulier avec leur manager\n✗ Déficit de visibilité sur les perspectives d'évolution : 74 % ne savent pas quel est leur plan de carrière chez Lumio"
+          },
+          {
+            "type": "h3",
+            "text": "VERBATIMS REPRÉSENTATIFS :"
+          },
+          {
+            "type": "p",
+            "text": "\"J'aime le produit mais je ne sais pas ce que je vais devenir dans 2 ans.\" (ingénieur, 2 ans d'ancienneté)\n\"Le mode projet permanent crée de l'excitation mais aussi de l'épuisement. Il n'y a jamais de pause.\" (chef de projet, 3 ans)\n\"Je suis très bien intégrée techniquement. Humainement, j'ai eu l'impression d'être livrée à moi-même les 3 premières semaines.\" (développeuse, recrutée en novembre 2024)"
+          },
+          {
+            "type": "h3",
+            "text": "AVIS GLASSDOOR (extraits anonymisés) :"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "\"Produit génial, culture stressante. Le paradoxe est flagrant pour une appli anti-stress.\" (2 mai 2025)",
+              "\"Management direct et exigeant. Pas pour tout le monde.\" (janvier 2025)",
+              "\"Équipe tech excellente. Évolution de carrière floue.\" (novembre 2024)"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-03",
+    "title": "Thread Slack #recrutement-urgent — échanges avec la RRH",
+    "tab": "Thread Slack #recrutement-urg…",
+    "accent": "#0a7a6e",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Camille Ott — Responsable B2B",
+        "title": "Thread Slack #recrutement-urgent — échanges avec la RRH",
+        "byline": "message_slack · Acte 2",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "ÉCHANGE SLACK — Canal #recrutement-urgent"
+          },
+          {
+            "type": "p",
+            "text": "Camille Ott [09h14] : {{PRENOM}} — j'ai 40 minutes ce soir pour te parler du poste B2B mais après je pars en déplacement jusqu'à vendredi. Voilà ce qui est non-négociable pour moi : la personne parle anglais courant, elle a déjà vendu en B2B avec un cycle de vente long (> 3 mois), et elle comprend la logique d'un partenariat avec un réseau international type Northgate. C'est un contexte multiculturel — les cliniques sont en Allemagne, au Danemark, en Pologne. Quelqu'un qui n'a jamais travaillé qu'en France ça va pas marcher."
+          },
+          {
+            "type": "p",
+            "text": "Camille Ott [09h16] : Ah et last but not least — je veux être dans la boucle pour la décision finale mais je ne peux pas être dans toutes les réunions d'entretien. Si tu montes une grille d'évaluation on peut s'aligner là-dessus rapidement."
+          },
+          {
+            "type": "p",
+            "text": "Camille Ott [09h18] : Pour la fiche de poste, j'ai pas le temps de la co-construire avant jeudi. Fais quelque chose de solide sur la base de ce que je viens de dire et je te donne mes retours vendredi."
+          },
+          {
+            "type": "p",
+            "text": "{{PRENOM}} [09h21] : Noté. Je prépare une première version de la fiche + une grille d'entretien structurée que je t'envoie avant jeudi midi."
+          },
+          {
+            "type": "p",
+            "text": "Camille Ott [09h22] : ✓"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-04",
+    "title": "Analyse des 2 ruptures de période d'essai — T1 2025 : causes et recommandations",
+    "tab": "Analyse des 2 ruptures de pér…",
+    "accent": "#5c2d8f",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Service RH Lumio Health",
+        "title": "Analyse des 2 ruptures de période d'essai — T1 2025 : causes et recommandations",
+        "byline": "note_interne · Acte 2",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "POST-MORTEM RECRUTEMENT — T1 2025"
+          },
+          {
+            "type": "p",
+            "text": "Ruptures de période d'essai : Thomas Veillard (Dev Full Stack) et Léa Bouchet (Chargée Marketing)\nRédigé par : Aline Dupuis (CFO) en coordination avec les managers concernés"
+          },
+          {
+            "type": "p",
+            "text": "── THOMAS VEILLARD — Développeur Full Stack Senior\nDurée : 3 semaines · Rupture à l'initiative du salarié\nRaison déclarée : \"Le poste réel ne correspond pas au poste décrit en entretien.\"\nAnalyse : Thomas avait été recruté sur une promesse de \"tech lead\". En pratique, poste d'exécution sans autonomie. Son manager (Marc Lefebvre) était en déplacement la première semaine. Pas de plan d'intégration. Pas de réunion d'équipe introductive.\nCoût estimé : 14 600 € (honoraires cabinet × 30 % + 3 semaines salaire chargé + coût management)"
+          },
+          {
+            "type": "p",
+            "text": "── LÉA BOUCHET — Chargée Marketing\nDurée : 6 semaines · Rupture à l'initiative du salarié\nRaison déclarée : \"Culture de management contraire aux valeurs affichées.\"\nAnalyse : Léa avait été attirée par le culture doc Lumio (\"management bienveillant, feedback continu, autonomie forte\"). Elle a vécu un management très directif avec des retours tardifs ou inexistants. Son onboarding ne comportait pas de présentation de la culture réelle vs culture souhaitée.\nCoût estimé : 19 400 € (recrutement + ramp-up + management cost)"
+          },
+          {
+            "type": "h3",
+            "text": "TOTAL : 34 000 €"
+          },
+          {
+            "type": "h3",
+            "text": "ENSEIGNEMENTS :"
+          },
+          {
+            "type": "p",
+            "text": "1. Les fiches de poste doivent décrire la réalité, pas l'idéal\n2. Un plan d'intégration minimum (30-60-90 jours) est non-négociable\n3. Les managers doivent être disponibles la première semaine du nouveau collaborateur\n4. Le culture doc doit être revu pour refléter la réalité actuelle, pas les aspirations"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-05",
+    "title": "RE: Staffing Lumio — Points d'attention contractuels",
+    "tab": "RE: Staffing Lumio — Points d…",
+    "accent": "#7a3b46",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Jakob Rein — Directeur Partenariats, Northgate Clinics",
+        "title": "RE: Staffing Lumio — Points d'attention contractuels",
+        "byline": "email · Acte 3",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "From: Jakob Rein — Northgate Capital\nTo: Théo Marczak, Sonia Ferracci\nDate: March 15, 2025\nSubject: Northgate pilot — B2B Partnership Manager requirement + RSE supplier clause"
+          },
+          {
+            "type": "p",
+            "text": "Théo, Sonia,"
+          },
+          {
+            "type": "p",
+            "text": "I want to formally confirm two points regarding our partnership agreement."
+          },
+          {
+            "type": "h3",
+            "text": "1. PARTNERSHIP MANAGER — BINDING DEADLINE"
+          },
+          {
+            "type": "p",
+            "text": "As per clause 4.2 of our partnership agreement, Lumio Health is required to have a dedicated B2B Partnership Manager operational by August 1, 2025. This person will be the primary contact for our 5 pilot clinics (Denmark, Germany, Poland) during the 6-month pilot phase. Failure to meet this deadline will trigger the penalty clause of €50,000 with a 30-day grace period."
+          },
+          {
+            "type": "h3",
+            "text": "2. NORTHGATE RSE SUPPLIER CHARTER — DISABILITY POLICY"
+          },
+          {
+            "type": "p",
+            "text": "All Northgate partners are required to comply with our RSE supplier charter, including Section 6 on disability policy. We expect our partners to: (a) have an active OETH declaration, (b) demonstrate a disability-inclusive recruitment process, (c) target a minimum 4% RQTH rate within 24 months of partnership."
+          },
+          {
+            "type": "p",
+            "text": "I noticed that Lumio's current RQTH rate is not documented in the due diligence materials you shared. I would appreciate a formal update on this before the end of March."
+          },
+          {
+            "type": "p",
+            "text": "Best regards,\nJakob Rein"
+          },
+          {
+            "type": "p",
+            "text": "---\nTRADUCTION FRANÇAISE (fournie par l'assistante de direction):\nJakob confirme deux points. 1/ La deadline du 1er août pour le poste B2B est contractuelle — pénalité de 50k€ en cas de retard. 2/ La charte RSE fournisseurs Northgate exige une politique handicap documentée : déclaration OETH, processus de recrutement inclusif, objectif de 4% RQTH à 24 mois."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-06",
+    "title": "Dossier de candidature — Maxime Lenoir, Data Scientist, malentendant appareillé",
+    "tab": "Dossier de candidature — Maxi…",
+    "accent": "#1a6641",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Candidature de Maxime Lenoir pour le poste Data Scientist Santé",
+        "title": "Dossier de candidature — Maxime Lenoir, Data Scientist, malentendant appareillé",
+        "byline": "cv_et_lettre · Acte 3",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "CANDIDATURE — POSTE DATA SCIENTIST SANTÉ"
+          },
+          {
+            "type": "p",
+            "text": "Maxime Lenoir"
+          },
+          {
+            "type": "h3",
+            "text": "CURRICULUM VITAE (extrait)"
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Master 2 Informatique — spécialité IA & Data Science, UPMC Paris VI (2020)",
+              "4 ans d'expérience en data science appliquée à la santé",
+              "Voluntis (2020-2022) : modélisation prédictive pour le suivi des patients diabétiques",
+              "Owkin (2022-2024) : NLP appliqué aux comptes rendus médicaux, modèles PyTorch",
+              "Compétences : Python, R, TensorFlow, Hugging Face, SQL, connaissance bases de données de santé (entrepôts CHU)",
+              "Langues : Français (natif), Anglais (C1), LSF (langue des signes française — niveau avancé)"
+            ]
+          },
+          {
+            "type": "h3",
+            "text": "LETTRE DE MOTIVATION (extraits)"
+          },
+          {
+            "type": "p",
+            "text": "\"Le projet Lumio Arc m'intéresse particulièrement pour la dimension physiologique des données biométriques et la certification MDR — un angle qui manque encore dans la plupart des startups IA santé que j'ai rencontrées.\""
+          },
+          {
+            "type": "p",
+            "text": "\"Je souhaite signaler, de façon proactive, que je suis malentendant avec une perte auditive sévère des deux côtés. Je travaille sans difficulté en visioconférence avec sous-titrage automatique ou avec un interprète LSF pour les moments clés (réunions de groupe, présentations). Je suis reconnu RQTH et inscrit à l'Agefiph depuis 2020. Pour l'entretien, je vous serais reconnaissant de prévoir soit un interprète LSF (financement possible via l'Agefiph), soit un dispositif de sous-titrage en temps réel (Skype Translator, Google Meet avec sous-titres). Je suis joignable par email ou SMS de préférence.\""
+          },
+          {
+            "type": "p",
+            "text": "NOTE RECRUTEUR (RH) : Ce candidat dépasse les attentes sur le plan technique. Sa candidature est à traiter avec soin — l'adaptation du processus est légalement requise et techniquement simple. Contact Agefiph à prendre rapidement pour le financement de l'interprète."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-07",
+    "title": "Avis Glassdoor Lumio Health — 23 avis récents, note globale 3,1/5",
+    "tab": "Avis Glassdoor Lumio Health —…",
+    "accent": "#2d6a4f",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Glassdoor.fr — Profil employeur Lumio Health (captures mai 2025)",
+        "title": "Avis Glassdoor Lumio Health — 23 avis récents, note globale 3,1/5",
+        "byline": "capture_ecran · Acte 4",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "AVIS GLASSDOOR — LUMIO HEALTH (compilation mars-juin 2025)"
+          },
+          {
+            "type": "p",
+            "text": "Source : profil Glassdoor lumio-health.com · 6 avis vérifiés"
+          },
+          {
+            "type": "p",
+            "text": "⭐⭐⭐⭐⭐ — \"Meilleur stage de ma vie\" (stagiaire, mars 2025)\n\"Équipe brillante, produit qui a vraiment du sens, j'ai appris plus en 6 mois ici qu'en 2 ans ailleurs. Therap de management excellent.\"\nPoints positifs : Ambiance, apprentissage\nPoints négatifs : Beaucoup de travail"
+          },
+          {
+            "type": "p",
+            "text": "⭐⭐⭐⭐ — \"Startup authentique\" (ingénieure, jan. 2025)\n\"Le produit est vraiment innovant et l'équipe est compétente. Il faut aimer l'ambiance startup où tout va vite.\"\nPoints négatifs : Charge parfois lourde"
+          },
+          {
+            "type": "p",
+            "text": "⭐⭐ — \"Culture du résultat anxiogène\" (développeur, avril 2025)\n\"Je suis parti après 3 mois. Le management est sous pression permanente et ça se ressent partout. Le CEO est brillant mais dans l'urgence en continu. Pas compatible avec ma vision du travail.\"\nConseils à la direction : \"Apprenez à ralentir.\""
+          },
+          {
+            "type": "p",
+            "text": "⭐⭐ — \"Promesses non tenues\" (chef de projet, fév. 2025)\n\"En entretien on m'a dit 'on est à fond sur le développement des compétences'. En pratique, pas de budget formation, pas d'entretien annuel depuis 18 mois.\"\nPoints négatifs : Manque de structure RH"
+          },
+          {
+            "type": "p",
+            "text": "⭐ — \"Manque de diversité dans le leadership\" (UX Designer, mars 2025)\n\"Équipe produit et leadership très homogènes — jeunes, parisiens, formation similaire. Aucun effort visible sur la diversité malgré les discours.\"\nConseils : \"Recrutez des profils différents à des postes de responsabilité.\""
+          },
+          {
+            "type": "p",
+            "text": "⭐ — \"L'ironie est flagrante\" (chargée marketing, 2 mai 2025)\n\"On nous a vendu une culture bien-être alors que le stress est partout — ironie pour une appli anti-stress. J'ai vu deux collègues partir en burn-out en 6 mois. Quand on crée un outil pour mesurer le stress, on devrait peut-être commencer par s'en préoccuper en interne.\"\nConseils à la direction : \"Mangez votre propre cuisine.\""
+          },
+          {
+            "type": "p",
+            "text": "RÉPONSE LUMIO HEALTH (publiée sur Glassdoor) : \"Merci pour ce retour sincère. Nous prenons ces sujets très au sérieux et avons lancé des actions concrètes sur le bien-être interne et le plan de développement des compétences. Nous sommes conscients que la culture que nous vendons doit d'abord être vécue en interne.\""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "DOC-08",
+    "title": "Tableau de bord RH — Indicateurs recrutement et intégration T1-T2 2025",
+    "tab": "Tableau de bord RH — Indicate…",
+    "accent": "#a0522d",
+    "warning": false,
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "RRH Lumio Health — Données RH consolidées juin 2025",
+        "title": "Tableau de bord RH — Indicateurs recrutement et intégration T1-T2 2025",
+        "byline": "tableau_de_bord · Acte 5",
+        "blocks": [
+          {
+            "type": "h3",
+            "text": "TABLEAU DE BORD RECRUTEMENT — LUMIO HEALTH"
+          },
+          {
+            "type": "p",
+            "text": "Période : 1er janvier 2024 — 31 mars 2025\nSource : SIRH Lucca + suivi ATS (Workable) + données CFO"
+          },
+          {
+            "type": "h3",
+            "text": "INDICATEURS CLÉS vs BENCHMARK SECTEUR DIGITAL"
+          },
+          {
+            "type": "p",
+            "text": "Délai moyen de recrutement (offre validée → prise de poste) :\n• Lumio : 52 jours\n• Benchmark secteur digital (Welcome to the Jungle 2024) : 38 jours\n• Écart : +14 jours (+37 %)"
+          },
+          {
+            "type": "p",
+            "text": "Taux d'acceptation des offres proposées :\n• Lumio : 61 %\n• Benchmark : 74 %\n• Analyse : 39 % des candidats auxquels on fait une offre la refusent. Cause principale identifiée dans les débriefs : salaire (44 %), doutes sur la culture (31 %), autre offre simultanée (25 %)"
+          },
+          {
+            "type": "p",
+            "text": "Taux de rupture pendant la période d'essai :\n• Lumio : 28 % (5 ruptures sur 18 recrutements CDI)\n• Benchmark : 12 %\n• Analyse : surreprésentation des ruptures à l'initiative du salarié (4/5) → signal onboarding / alignement poste réel vs promesses"
+          },
+          {
+            "type": "p",
+            "text": "Coût moyen par embauche :\n• Lumio : 4 200 € (hors coût du temps manager)\n• Benchmark : 3 100 €\n• Note : le coût des deux ruptures de T1 2025 (34 000 €) représente 8 recrutements standard"
+          },
+          {
+            "type": "p",
+            "text": "Taux d'absentéisme des nouveaux collaborateurs à 3 mois :\n• Lumio : 8,3 %\n• Benchmark : 4,1 %\n• Analyse : signal possible de désengagement précoce ou d'intégration insuffisante"
+          },
+          {
+            "type": "p",
+            "text": "CONCLUSION : sur les 5 indicateurs, Lumio est en dessous du benchmark sur les 5. Les axes prioritaires d'amélioration sont : réduction du délai de recrutement, amélioration du taux d'acceptation (politique salariale + authenticité de la marque employeur) et réduction du taux de rupture (onboarding, alignement poste)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deck-board",
+    "title": "Plan marque employeur & recrutement — 3 postes critiques avant le 1er août 2025",
+    "tab": "Présentation CODIR",
+    "accent": "#1b3a6b",
+    "type": "deck",
+    "subtitle": "Présentation",
+    "slides": [
+      {
+        "titre": "Diagnostic marque employeur",
+        "contenu": "Note d'engagement interne : 6,2/10 · eNPS : -12 · Score diversité-inclusion : 5,8/10\nAvis Glassdoor : 6 avis dont 4 négatifs (culture anxiogène, promesses non tenues, manque de feedback)\nDeuxième rupture de période d'essai ce trimestre. Coût total : 34 000 €."
+      },
+      {
+        "titre": "Contexte recrutement",
+        "contenu": "3 postes critiques : Responsable Partenariats B2B (deadline 1er août, clause contractuelle Northgate), Data Scientist Santé (délai certification MDR), Growth Manager (stratégie B2C Sonia).\nTaux d'acceptation des offres actuel : 61 % vs benchmark 74 %. On perd des candidats en finale."
+      },
+      {
+        "titre": "Axes d'amélioration marque employeur",
+        "contenu": "1. Refonte de la page Careers (contenu authentique, témoignages équipe, parité)\n2. Programme ambassadeurs internes (3 volontaires identifiés)\n3. Grille d'entretien structurée et formation managers à l'entretien non discriminatoire\n4. Plan d'intégration formalisé (parcours 30-60-90 jours)\n5. Réponse systématique à tous les avis Glassdoor sous 48h"
+      },
+      {
+        "titre": "Processus de recrutement inclusif (poste Data Scientist)",
+        "contenu": "Candidat Maxime Lenoir : profil excellent, handicap auditif déclaré, demande d'interprète LSF.\nAdaptations requises : interprète ou sous-titrage temps réel, envoi des questions à l'avance, salle sans bruit de fond.\nCadre légal : RQTH, obligation de non-discrimination (L.1132-1), aménagement raisonnable.\nPartenaires : Agefiph (financement possible de l'interprète), Cap Emploi pour conseil."
+      },
+      {
+        "titre": "Planning",
+        "contenu": "Semaine 1-2 : fiches de poste + annonces + page Careers\nSemaine 3-4 : sourcing multicanal\nSemaine 5-6 : entretiens + décisions\nSemaine 7-8 : offres + onboarding préparé\nDeadline 1er août : Responsable Partenariats B2B opérationnel"
+      }
+    ]
+  },
+  {
+    "id": "veille",
+    "title": "Veille concurrentielle",
+    "tab": "Veille concurrentielle",
+    "accent": "#1a6641",
+    "type": "rich",
+    "pages": [
+      {
+        "kicker": "Lundi 9 juin 2025",
+        "title": "Veille concurrentielle",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Veille RH — Recrutement, marque employeur, accessibilité\nMars 2025 — Périmètre : obligations légales recrutement, RQTH, attractivité employeur"
+          },
+          {
+            "type": "h3",
+            "text": "PRINCIPE DE NON-DISCRIMINATION À L'EMBAUCHE"
+          },
+          {
+            "type": "p",
+            "text": "L'article L.1132-1 du Code du travail interdit toute discrimination dans le processus de recrutement sur 25 critères dont le handicap, le sexe, l'origine, l'âge. Implications pratiques : les critères de sélection doivent être objectifs et documentés (grille d'évaluation), les questions posées en entretien doivent être liées aux compétences requises par le poste."
+          },
+          {
+            "type": "h3",
+            "text": "RQTH ET OBLIGATIONS EMPLOYEUR"
+          },
+          {
+            "type": "p",
+            "text": "Reconnaissance de la Qualité de Travailleur Handicapé (RQTH) : accordée par la CDAPH. L'employeur a une obligation d'aménagement raisonnable du processus de recrutement pour les candidats en situation de handicap (article L.5213-6). Le refus d'aménagement sans justification peut constituer une discrimination indirecte. Financement de l'interprète LSF pour un entretien : prise en charge possible par l'Agefiph (jusqu'à 100 %)."
+          },
+          {
+            "type": "h3",
+            "text": "OBLIGATION D'EMPLOI DES TRAVAILLEURS HANDICAPÉS (OETH)"
+          },
+          {
+            "type": "p",
+            "text": "Dès 20 ETP, tout employeur est tenu d'employer au moins 6 % de salariés RQTH. En cas de non-respect, contribution AGEFIPH. Lumio Health : 3 % estimé → contribution annuelle estimée à 7 200 € si aucune action. Priorité recommandée : déclaration OETH complète et plan d'action pour atteindre les 6 %."
+          },
+          {
+            "type": "h3",
+            "text": "MARQUE EMPLOYEUR ET DROIT"
+          },
+          {
+            "type": "p",
+            "text": "Les informations publiées sur les offres d'emploi sont encadrées : interdiction des mentions discriminatoires, obligation d'indiquer le niveau de salaire (obligatoire à partir de 2025 pour la transposition de la directive européenne sur la transparence salariale). Les avis Glassdoor sont couverts par la liberté d'expression — l'employeur ne peut pas les supprimer, seulement y répondre."
+          },
+          {
+            "type": "h3",
+            "text": "SOURCING INCLUSIF"
+          },
+          {
+            "type": "p",
+            "text": "Canaux recommandés pour le poste Data Scientist (profil RQTH) : ESAT numériques, plateformes Handi2day, Emploi Handicap, réseau Cap Emploi, mention explicite de l'ouverture aux candidats RQTH dans l'annonce."
+          }
+        ]
+      }
+    ]
+  }
+];
+  D.guide = {
+  "tips": [
+    {
+      "day": "Acte 1",
+      "title": "URGENT — Lancement Opération Pulse : 3 recrutemen…",
+      "body": "Document de cadrage initial : fixe les contraintes de délai liées au contrat Northgate, annonce les trois postes à pourvoir, mentionne les pénalités contractuelles en cas de retard et délègue officiellement la coordination à la RRH avec Sonia Ferracci en appui. Contient les données GEPP simplifiées et le rappel des deux ruptures de période d'essai du trimestre précédent."
+    },
+    {
+      "day": "Acte 1",
+      "title": "Résultats baromètre social & marque employeur — S…",
+      "body": "Fournit les données quantitatives du diagnostic marque employeur : note d'engagement à 6,2/10, taux de recommandation interne (eNPS) à -12, verbatims sur la culture de performance stressante, score diversité & inclusion à 5,8/10. Identifie trois points forts (innovation produit, flexibilité télétravail, équipe jeune et dynamique) et trois axes de progrès (charge de travail, manque de feedback managérial, déficit de visibilité sur les perspectives d'évolution)."
+    },
+    {
+      "day": "Acte 2",
+      "title": "Thread Slack #recrutement-urgent — échanges avec …",
+      "body": "Série de messages dans lesquels Camille exprime ses attentes pour le recrutement du Responsable Partenariats B2B : elle insiste sur les compétences interculturelles (contexte Northgate international), signale qu'elle n'a pas le temps de co-construire la fiche de poste avant jeudi et délègue implicitement à la RRH tout en restant exigeante sur le profil. Révèle une tension latente entre urgence opérationnelle et qualité du processus."
+    },
+    {
+      "day": "Acte 2",
+      "title": "Analyse des 2 ruptures de période d'essai — T1 20…",
+      "body": "Document post-mortem des deux ruptures récentes : un Développeur Full Stack parti après 3 semaines (décalage entre le poste réel et le poste vendu), une Chargée Marketing partie après 6 semaines (management directif perçu comme contraire aux valeurs affichées). Identifie des failles dans l'onboarding (pas de plan d'intégration formalisé, manager non disponible la première semaine) et dans l'alignement marque employeur / réalité terrain. Fournit les KPIs de départ : coût total des deux ruptures estimé à 34 000 €."
+    },
+    {
+      "day": "Acte 3",
+      "title": "RE: Staffing Lumio — Points d'attention contractu…",
+      "body": "Email en anglais (avec traduction jointe) dans lequel Jakob Rein rappelle les clauses contractuelles : le Responsable Partenariats B2B Lumio doit être opérationnel avant le 1er août pour la phase pilote avec 5 cliniques Northgate. Il signale également que Northgate attache une importance particulière à la politique handicap de ses partenaires (critère RSE de leur charte fournisseurs). Ce document crée la pression externe et introduit l'enjeu RSE/handicap."
+    },
+    {
+      "day": "Acte 3",
+      "title": "Dossier de candidature — Maxime Lenoir, Data Scie…",
+      "body": "CV et lettre de motivation de Maxime Lenoir : 4 ans d'expérience en data science santé, compétences Python, R et NLP, mention explicite de sa situation de handicap auditif et de sa pratique de la LSF. Il sollicite des adaptations pour l'entretien (interprète LSF ou sous-titrage en temps réel) et signale son inscription à l'Agefiph. Son profil est techniquement excellent et dépasse les attentes. Ce document déclenche toute la séquence d'adaptation du processus."
+    },
+    {
+      "day": "Acte 4",
+      "title": "Avis Glassdoor Lumio Health — 23 avis récents, no…",
+      "body": "Capture d'écran anonymisée de 6 avis représentatifs : deux positifs (ambiance startup, produit innovant), quatre négatifs (culture du résultat anxiogène, promesses non tenues sur l'évolution, manque de diversité dans le leadership, processus de recrutement opaque). Le dernier avis daté du 2 mai mentionne explicitement 'on nous a vendu une culture bien-être alors que le stress est partout — ironie pour une appli anti-stress'. Ce document alimente le diagnostic marque employeur et la communication externe."
+    },
+    {
+      "day": "Acte 5",
+      "title": "Tableau de bord RH — Indicateurs recrutement et i…",
+      "body": "Fournit les données brutes pour la compétence 3.9 : délai moyen de recrutement 52 jours (benchmark secteur 38 jours), taux d'acceptation des offres 61% (benchmark 74%), taux de rupture en période d'essai 28% (benchmark 12%), coût moyen par embauche 4 200 € (benchmark 3 100 €), taux d'absentéisme nouveaux collaborateurs 8,3% à 3 mois. Permet de calculer les écarts et d'argumenter les préconisations d'amélioration."
+    }
+  ]
+};
+  D.portraits = [
+  {
+    "key": "theo_marczak",
+    "title": "Théo Marczak",
+    "file": "portraits/portrait_theo_marczak.html"
+  },
+  {
+    "key": "sonia_ferracci",
+    "title": "Sonia Ferracci",
+    "file": "portraits/portrait_sonia_ferracci.html"
+  },
+  {
+    "key": "camille_ott",
+    "title": "Camille Ott",
+    "file": "portraits/portrait_camille_ott.html"
+  },
+  {
+    "key": "jakob_rein",
+    "title": "Jakob Rein",
+    "file": "portraits/portrait_jakob_rein.html"
+  },
+  {
+    "key": "yassine_morel",
+    "title": "Yassine Morel",
+    "file": "portraits/portrait_yassine_morel.html"
+  }
+];
+  D.finder = D.finder || { folders: {}, order: [] };
+  D.finder.folders.portraits = {
+  "title": "Portraits",
+  "sidebar": "👥 Portraits",
+  "icon": "👥",
+  "items": [
+    {
+      "kind": "portrait",
+      "name": "Théo Marczak",
+      "app": "browser",
+      "props": {
+        "openPortrait": "theo_marczak"
+      }
+    },
+    {
+      "kind": "portrait",
+      "name": "Sonia Ferracci",
+      "app": "browser",
+      "props": {
+        "openPortrait": "sonia_ferracci"
+      }
+    },
+    {
+      "kind": "portrait",
+      "name": "Camille Ott",
+      "app": "browser",
+      "props": {
+        "openPortrait": "camille_ott"
+      }
+    },
+    {
+      "kind": "portrait",
+      "name": "Jakob Rein",
+      "app": "browser",
+      "props": {
+        "openPortrait": "jakob_rein"
+      }
+    },
+    {
+      "kind": "portrait",
+      "name": "Yassine Morel",
+      "app": "browser",
+      "props": {
+        "openPortrait": "yassine_morel"
+      }
+    }
+  ]
+};
+  if (D.finder.order.indexOf('portraits') === -1) {
+    var gIdx = D.finder.order.indexOf('guide');
+    D.finder.order.splice(gIdx >= 0 ? gIdx + 1 : 0, 0, 'portraits');
+  }
+})();
+// === [Chantier PDF+Browser] fin ===
