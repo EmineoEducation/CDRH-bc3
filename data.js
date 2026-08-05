@@ -1168,3 +1168,19 @@ window.PASS_CONFIG = window.PAC_CONFIG;
   }
 })();
 // === [Portrait Isabelle Kwan] fin ===
+
+// === [Carte portfolio] — 05/08/2026 · contenu propre au bloc, ajout non destructif ===
+(function () {
+  var c = window.PAC_CONFIG || window.PASS_CONFIG;
+  if (!c) return;
+  c.portfolio = {
+    missionTitre: "Recruter vite sans abîmer la marque employeur",
+    miseEnSituation: "La croissance impose une vague de recrutements rapide alors que l'attractivité de l'entreprise s'érode et que le parcours d'intégration est inexistant. Parmi les candidats retenus sur un poste de data scientist, l'un est en situation de handicap et le processus n'a rien prévu pour l'accueillir.",
+    choix: "Un processus outillé de bout en bout — fiche de poste complète, grille d'entretien commune, onboarding formalisé — dont chaque étape est adaptée par défaut aux situations de handicap plutôt que traitée en aménagement exceptionnel.",
+    justification: "Standardiser le processus est ce qui permet d'aller vite sans perdre en qualité de sélection, et intégrer l'accessibilité dès la conception évite d'improviser un traitement particulier qui exposerait l'entreprise à un risque de discrimination.",
+    imageSrc: ""
+  };
+  window.PAC_CONFIG = c;
+  window.PASS_CONFIG = c;
+})();
+// === [Carte portfolio] fin ===
